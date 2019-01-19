@@ -15,7 +15,7 @@ This static website has been created using hugo.
 
     >git clone https://github.com/rohanvtk/ALiAS_Blog.git
 
-*to install hugo [click here](https://gohugo.io/getting-started/quick-start/) for step-by-step guide*
+*to install hugo [click here](https://gohugo.io/getting-started/quick-start/) for a step-by-step guide*
 
 *mount the directory on terminal and type hugo start server*
 
