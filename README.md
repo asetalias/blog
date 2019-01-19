@@ -7,6 +7,8 @@ This static website has been created using hugo.
 
 *to get to know this theme better [click here](https://github.com/appernetic/hugo-nederburg-theme/)*
 
+*markdown cheat sheet [click here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)*
+
 ---
 
 *to run this website on your system, clone the repository*
