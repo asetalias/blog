@@ -1,6 +1,5 @@
-# Blog for ASET Alias
+# Blog for *ASET ALiAS*
 
----
 
 This static website has been created using hugo.
 
@@ -10,11 +9,13 @@ This static website has been created using hugo.
 
 ---
 
-    *to run this website on your system, clone the repository*
+*to run this website on your system, clone the repository*
 
-    *to install hugo [click here](https://gohugo.io/getting-started/quick-start/) for step-by-step guide*
+    >git clone https://github.com/rohanvtk/ALiAS_Blog.git
 
-    *mount the directory on terminal and type hugo start server*
+*to install hugo [click here](https://gohugo.io/getting-started/quick-start/) for step-by-step guide*
+
+*mount the directory on terminal and type hugo start server*
 
 
 __please note the site is still a work in progress and I would appreciate inputs for the same__
