@@ -17,7 +17,7 @@ This static website has been created using hugo.
 
 *to install hugo [click here](https://gohugo.io/getting-started/quick-start/) for a step-by-step guide*
 
-*mount the directory on terminal and type hugo start server*
+*mount the directory on terminal and type __hugo start server__*
 
 
 __please note the site is still a work in progress and I would appreciate inputs for the same__
