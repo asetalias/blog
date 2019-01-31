@@ -50,10 +50,10 @@ This static website has been created using hugo.
 
 * For first time contributors*
 
-*For a begineers guide on using Github, Visit [Hello World-Github](https://guides.github.com/activities/hello-world/).
-*For a guide to set up for the first time, visit [Setting up Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
-*For a begineers git guide, visit [git-a simple guide](http://rogerdudler.github.io/git-guide/).
-*For a detailed Git guide, you can read the book [pro git](https://git-scm.com/book/en/v2).
+For a begineers guide on using Github, Visit [Hello World-Github](https://guides.github.com/activities/hello-world/).
+For a guide to set up for the first time, visit [Setting up Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+For a begineers git guide, visit [git-a simple guide](http://rogerdudler.github.io/git-guide/).
+For a detailed Git guide, you can read the book [pro git](https://git-scm.com/book/en/v2).  
 
 
 *The theme used in this website is Hugo-Nerdberg Theme*
