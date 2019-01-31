@@ -37,7 +37,7 @@ This static website has been created using hugo.
 *The website will be available on http://localhost:1313/*
 
 
-*For Developers:
+* For Developers:
 
 `Hugo and git are required to contribute to the website`
 
@@ -48,7 +48,7 @@ This static website has been created using hugo.
 5) To run a local copy of the website, open the command prompt or your preferred CLI, change the directory to the address of the repository and use the command `hugo server`.
 6) Submit a pull request to commit your changes to the website.
 
-* For first time contributors*
+* For first time contributors:
 
 For a begineers guide on using Github, Visit [Hello World-Github](https://guides.github.com/activities/hello-world/).<br/>
 For a guide to set up for the first time, visit [Setting up Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).<br/>
