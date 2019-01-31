@@ -20,15 +20,15 @@ This static website has been created using hugo.
 4) Create 2 subfolders: bin and Sites.
 5) Extract the contents of the downloaded zip file in C:\Hugo\bin
 6) Search and open  Advanced System settings
-7)Click on the Environment Variables… button on the bottom.
-8)In the User variables section, find the row that starts with PATH.
-9)Double-click on PATH and Click the New… button.
+7) Click on the Environment Variables… button on the bottom.
+8) In the User variables section, find the row that starts with PATH.
+9) Double-click on PATH and Click the New… button.
 10) Type in C:\Hugo\bin and click ok.
 *Hugo is now installed in your sytem and is ready to use*
 
 `Installing the Site`
 
-1)[Click Here](https://github.com/rohanvtk/ALiAS_Blog/) to visit the repository of the website and download the website as a zip file.
+1) [Click Here](https://github.com/rohanvtk/ALiAS_Blog/) to visit the repository of the website and download the website as a zip file.
 2) Extract the contents of the downloaded file in C:\Hugo\Sites.
 3) Open your terminal and type `cd C:\Hugo\Sites\ALiAS_Blog`
 4) Now, enter the command `hugo server`
@@ -48,6 +48,7 @@ This static website has been created using hugo.
 6) Submit a pull request to commit your changes to the website.
 
 *The theme used in this website is Hugo-Nerdberg Theme*
+
 *To get to know the theme better [click here](https://github.com/appernetic/hugo-nederburg-theme/)*
 
 
