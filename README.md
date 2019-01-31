@@ -10,7 +10,7 @@ This website has been created using hugo and is currently under construction. Pl
 
 ## _Using the Website_
 
-###_For General users:_
+### _For General users:_
 
 `Hugo Installation`
 
@@ -38,14 +38,14 @@ _The website will be available on <http://localhost:1313/>_
 
 `Git is required to contribute to the website and Hugo is required to run the site and test it on a local server`
 
-###_For Developers:_
+### _For Developers:_
 
 1) Hugo installation instructions are given above.
 2) Clone the repository to your systems using `git clone https://github.com/rohanvtk/ALiAS_Blog.git`.
 3) To run a local copy of the website, open the command prompt or your preferred CLI, change the directory to the address of the repository and use the command `hugo server`.
 4) Submit a pull request to submit your changes to the website.
 
-###_For Writers:_
+### _For Writers:_
 
 1) Clone the repository to your systems using `git clone https://github.com/rohanvtk/ALiAS_Blog.git`.
 2) Create you work file in `/content/post`, see existing files as an example
@@ -53,7 +53,7 @@ _The website will be available on <http://localhost:1313/>_
 4)  Submit a pull request to submit your work.
 
 
-###_For first time contributors:_
+### _For first time contributors:_
 
 -   For a begineers guide on using Github, Visit [Hello World-Github](https://guides.github.com/activities/hello-world/).<br/>
 -   For a guide to set up git for the first time, visit [Setting up Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).<br/>
@@ -67,5 +67,3 @@ _for markdown cheat sheet [click here](https://github.com/adam-p/markdown-here/w
 _The theme used in this website is Hugo-Nerdberg Theme_
 
 _To get to know the theme better [click here](https://github.com/appernetic/hugo-nederburg-theme/)_
-
-_please note the site is still a work in progress and I would appreciate inputs for the same_
