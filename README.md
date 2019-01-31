@@ -8,22 +8,23 @@ This static website has been created using hugo.
 *markdown cheat sheet [click here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)*
 
 ---
-**Using the Website: **
+**Using the Website **
 
-* For General users: *
+* For General users:
 
 `Hugo Installation`
 1) [Click Here](https://github.com/gohugoio/hugo/releases) to  download latest version of Hugo for your operating system.
 2) MacOS users can also  install Hugo using Homebrew utility and Linux users can install Hugo directly from the official directory for their distribution.
 *For more detailed instructions please visit [Hugo Installation](https://gohugo.io/getting-started/installing)*
-3)  Create a floder named Hugo in your C:\ drive.
-4) Create 2 subfolders bin and Sites in that folder.
+3)  Create a folder named Hugo in your C:\ drive.
+4) Create 2 subfolders: bin and Sites.
 5) Extract the contents of the downloaded zip file in C:\Hugo\bin
-6) Search and open you Advanced System settings
+6) Search and open  Advanced System settings
 7)Click on the Environment Variables… button on the bottom.
 8)In the User variables section, find the row that starts with PATH.
 9)Double-click on PATH and Click the New… button.
-10) Type in C:\Hugo\bin nd click ok.
+10) Type in C:\Hugo\bin and click ok.
+*Hugo is now installed in your sytem and is ready to use*
 
 `Installing the Site`
 
@@ -31,6 +32,7 @@ This static website has been created using hugo.
 2) Extract the contents of the downloaded file in C:\Hugo\Sites.
 3) Open your terminal and type `cd C:\Hugo\Sites\ALiAS_Blog`
 4) Now, enter the command `hugo server`
+
 *The website will be available on http://localhost:1313/*
 
 
@@ -45,7 +47,8 @@ This static website has been created using hugo.
 5) To run a local copy of the website, open your preferred CLI, change the directory to the address of the repo and use the command hugo server.
 6) Submit a pull request to commit your changes to the website.
 
-*to get to know this theme better [click here](https://github.com/appernetic/hugo-nederburg-theme/)*
+*The theme used in this website is Hugo-Nerdberg Theme*
+*To get to know the theme better [click here](https://github.com/appernetic/hugo-nederburg-theme/)*
 
 
 
