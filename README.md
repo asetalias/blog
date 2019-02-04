@@ -12,6 +12,7 @@ This website is currently under construction and all your inputs are highly appr
 -   Anyone willing to contribute and help in this project can refer to the Issues Section of the repository and take a look at issues which they can help solve.
 -   First time Git/Github users can refer to the "First time Contributors" section at the end of the document for guides and help on how to use git and Github and start contributing.
 
+-   To be involved in the ongoing discussions please join our [Telegram Group](https://t.me/joinchat/KDFmCRdcpJrASFp5pKVaCA).
 
 * * *
 
@@ -115,7 +116,7 @@ Windows 7 and 8.1 do not include the easy path editor included in Windows 10, so
 ## First time contributors:
 
 1) For a begineers guide on using Github, Visit [Hello World-Github](https://guides.github.com/activities/hello-world/).
- 2) For a guide to set up git for the first time, visit [Setting up Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+2) For a guide to set up git for the first time, visit [Setting up Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 3) For a begineers git guide, visit [git-a simple guide](http://rogerdudler.github.io/git-guide/).
 4) For a detailed Git guide, you can read the book [pro git](https://git-scm.com/book/en/v2).
 
