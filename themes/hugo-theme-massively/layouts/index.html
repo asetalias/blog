@@ -1,0 +1,67 @@
+{{ partial "htmlhead" . }}
+	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
+
+		{{ $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
+		{{ $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
+		{{ $postsFeaturedPost := .Site.Params.Posts.featuredpost | default "true" }}
+
+		{{ $posts := where .Data.Pages "Type" $postsFoldername }}
+		{{ $firstPost := first 1 $posts }}
+
+		{{ if and (eq $postsFeaturedPost "true") (gt (len $posts) 1) }}
+			{{ .Scratch.Set "postsForPaging" (after 1 $posts) }}
+		{{ else }}
+			{{ .Scratch.Set "postsForPaging" $posts }}
+		{{ end }}
+		{{ $postsForPaging := .Scratch.Get "postsForPaging" }}
+
+		{{ $postsPaging := .Paginate $postsForPaging $postsPageSize }}
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in" data-pfn="{{ $postsFoldername }}" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPost }}">
+
+				{{ if eq $postsPaging.PageNumber 1 }}
+				{{ partial "intro.html" . }}
+				{{ end }}
+
+				{{ partial "header" . }}
+				{{ partial "nav" . }}
+
+				<!-- Main -->
+					<div id="main">
+
+						{{ if eq $postsFeaturedPost "true" }}
+						{{ partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
+						{{ end }}
+						{{ partial "posts/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
+
+						<!-- Footer -->
+						{{ if gt $postsPaging.TotalPages 1 }}
+						<footer>
+							<div class="pagination">
+								{{ if $postsPaging.HasPrev }}
+								<a href="{{ $postsPaging.Prev.URL }}" class="previous"></a>
+								{{ end }}
+								{{ range $postsPaging.Pagers }}
+								{{ if lt .PageNumber 10 }}
+								<a href="{{ .URL }}" class="page{{ if eq .PageNumber $postsPaging.PageNumber }} active{{ end }}">{{ .PageNumber }}</a>
+								{{ end }}
+								{{ end }}
+								{{ if $postsPaging.HasNext }}
+								<a href="{{ $postsPaging.Next.URL }}" class="next">{{ i18n "NEXT" . }}</a>
+								{{ end }}
+							</div>
+						</footer>
+						{{ end }}
+
+					</div>
+
+					{{ partial "footer/index" . }}
+					{{ partial "copyright" . }}
+			</div>
+
+			{{ template "_internal/google_analytics.html" . }}
+			{{ partial "scripts/index" . }}
+
+	</body>
+</html>

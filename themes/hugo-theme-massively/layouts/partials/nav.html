@@ -1,0 +1,46 @@
+<!-- Nav -->
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='{{ "/" | relLangURL }}'>{{ .Site.Title }}</a></li>
+        {{ with $data.contactinfo }}
+        <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
+        {{ end }}
+        {{ if .IsTranslated }}
+        {{ range .AllTranslations }}
+        <li {{if eq ($.Site.Language) (.Language)}}class="active"{{end}}><a href='{{ .Permalink }}'>{{ .Language.LanguageName }}</a></li>
+        {{ end }}
+        {{ end }}
+    </ul>
+    {{ with $data.social }}
+    <ul class="icons">
+        {{ with .twitter }}
+        <li><a href="{{ . }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        {{ end }}
+        {{ with .facebook }}
+        <li><a href="{{ . }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        {{ end }}
+        {{ with .instagram }}
+        <li><a href="{{ . }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+        {{ end }}
+        {{ with .linkedin }}
+        <li><a href="{{ . }}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        {{ end }}
+        {{ with .github }}
+        <li><a href="{{ . }}" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        {{ end }}
+        {{ with .youtube }}
+        <li><a href="{{ . }}" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+        {{ end }}
+        {{ with .googleplus }}
+        <li><a href="{{ . }}" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
+        {{ end }}
+        {{ with .lastfm }}
+        <li><a href="{{ . }}" class="icon fa-lastfm"><span class="label">Last.fm</span></a></li>
+        {{ end }}
+        {{ with .flickr }}
+        <li><a href="{{ . }}" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</nav>
