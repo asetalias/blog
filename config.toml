@@ -1,19 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "ALiAS Blogs"
-theme = "hugo-nederburg-theme" 
-
- [params.writers."Example Author"]
-    link = "https://example.org/"
-    email = "exampleid@email.com"
-    bio = [
-      "Example bio for the example id. ooh.. this is fun :)"
-    ]
-    facebook      = "full Example profile url in facebook"
-    googleplus    = "full profile url in googleplus"
-    twitter       = "full profile url in twitter"
-    linkedin      = "full profile url in linkedin"
-    stackoverflow = "full profile url in stackoverflow"
-    instagram     = "full profile url in instagram"
-    github        = "full profile url in github"
-    pinterest     = "full profile url in pinterest"
+title = "Alias Blog"
+theme = "hugo-theme-massively"

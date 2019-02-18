@@ -1,0 +1,26 @@
+languageCode = "en-us"
+title = "Massively"
+baseURL = "https://hugo-theme-massively.netlify.com/"
+theme = "../.."
+googleanalytics = ""
+disqusShortname = ""
+
+# [params]
+  # set below parameter to define a favicon
+  # favicon = "favicon.ico"
+
+# Below parameters can be set to override default post settings
+# [params.posts]
+#     foldername = "post"
+#     pagesize = "6"
+#     featuredpost = "true"
+
+[languages]
+[languages.en]
+  languageName = "English"
+[languages.es]
+  languageName = "Español"
+  title = "Massively - Versión Español"
+#[languages.fr]
+#  languageName = "Français"
+#  title = "Massively - Version Française"

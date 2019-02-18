@@ -1,0 +1,9 @@
+contactformaction: 'mail-to:alias@support.com'
+
+address:
+- line: 'The address to the ALias HQ'
+- line: 'Line2 of the address'
+
+phone: 'some placeholder phone number'
+
+email: 'alias@something.com'
