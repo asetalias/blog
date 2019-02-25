@@ -92,4 +92,4 @@ ______
 
 *If you enjoyed reading this article do let me know by tweeting to me on my __twitter-handle @RohanVTK__. Your input will highly appreciable as well.*
 
-*If you encouter any dead links do tweet about it the links will be updated.*
+*If you encouter any dead links do tweet about it, the links will be updated.*
