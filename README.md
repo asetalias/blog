@@ -126,5 +126,5 @@ Windows 7 and 8.1 do not include the easy path editor included in Windows 10, so
 
 1) *For hugo documentation, [click here](https://gohugo.io/documentation).*
 2) *For markdown cheat sheet, [click here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code).*
-3) *For details about the theme, [click here](https://github.com/appernetic/hugo-nederburg-theme/).*
+3) *For details about the theme, [click here](https://github.com/curtistimson/hugo-theme-massively).*
 4) *Getting started with ALiAS: [Getting Started](https://bit.ly/2I833jJ)*

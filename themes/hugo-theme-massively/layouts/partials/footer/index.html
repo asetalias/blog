@@ -25,57 +25,44 @@
     <section class="split contact">
         {{ with $data.contactinfo.address }}
         <section class="alt">
-            <h3>{{ i18n "CONTACT_ADDRESS" . }}</h3>
+            <h3>ABOUT</h3>
             <p>
-                {{ range $i, $e := . }}
-                    {{ if $i }} <br/> {{ end }} {{ .line }}
-                {{ end }}
+              Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.
+              ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.
             </p>
         </section>
         {{ end }}
         {{ with $data.contactinfo.phone }}
         <section>
-            <h3>{{ i18n "CONTACT_PHONE" . }}</h3>
-            <p><a href="tel:{{ . }}">{{ . }}</a></p>
+            <h3>WEBSITE</h3>
+            <p><a href="http://asetalias.in/">asetalias.in</a></p>
         </section>
         {{ end }}
         {{ with $data.contactinfo.email }}
         <section>
             <h3>{{ i18n "CONTACT_EMAIL" . }}</h3>
-            <p><a href="mailto:{{ . }}">{{ . }}</a></p>
+            <p><a href="mailto:contactasetalias@gmail.com">contactasetalias@gmail.com</a></p>
         </section>
         {{ end }}
         {{ with $data.social }}
         <section>
             <h3>{{ i18n "CONTACT_SOCIAL" . }}</h3>
             <ul class="icons alt">
-                {{ with .twitter}}
-                <li><a href="{{ . }}" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-                {{ end }}
-                {{ with .facebook}}
-                <li><a href="{{ . }}" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-                {{ end }}
-                {{ with .instagram}}
-                <li><a href="{{ . }}" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-                {{ end }}
-                {{ with .linkedin}}
-                <li><a href="{{ . }}" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                {{ end }}
-                {{ with .github}}
-                <li><a href="{{ . }}" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-                {{ end }}
-                {{ with .youtube}}
-                <li><a href="{{ . }}" class="icon alt fa-youtube"><span class="label">Youtube</span></a></li>
-                {{ end }}
-                {{ with .googleplus}}
-                <li><a href="{{ . }}" class="icon alt fa-google-plus"><span class="label">Google Plus</span></a></li>
-                {{ end }}
-                {{ with .lastfm}}
-                <li><a href="{{ . }}" class="icon alt fa-lastfm"><span class="label">Last.fm</span></a></li>
-                {{ end }}
-                {{ with .flickr}}
-                <li><a href="{{ . }}" class="icon alt fa-flickr"><span class="label">Flickr</span></a></li>
-                {{ end }}
+              {{ with .twitter }}
+              <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              {{ end }}
+              {{ with .facebook }}
+              <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              {{ end }}
+              {{ with .linkedin }}
+              <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              {{ end }}
+              {{ with .github }}
+              <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+              {{ end }}
+              {{ with .youtube }}
+              <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+              {{ end }}
             </ul>
         </section>
         {{ end }}
