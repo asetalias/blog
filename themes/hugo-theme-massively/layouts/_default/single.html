@@ -6,7 +6,6 @@
 
                 {{ partial "header" . }}
                 {{ partial "nav" . }}
-
 				<!-- Main -->
 					<div id="main">
 
@@ -22,10 +21,13 @@
                             {{ if .Params.image }}
                             <div class="image main"><img src="{{ .Params.image | relURL }}" alt="" /></div>
                             {{ end }}
+														<p><b>Categories:</b>{{.Params.categories}} <br>
+														<b>Tags:</b>{{.Params.tags}}</p>
                             {{ .Content }}
+														<p> <b>Author:</b> {{ .Params.author}}</p>
 
                             {{ partial "postcustom" . }}
-                            
+
                             {{ if not (eq .Params.disableComments true) }}
                             {{ template "_internal/disqus.html" . }}
                             {{ end }}
