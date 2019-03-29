@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Alias Blog</title>
+    <link>http://asetalias.in/ALiAS_Blog/categories/</link>
+    <description>Recent content in Categories on Alias Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://asetalias.in/ALiAS_Blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example</title>
+      <link>http://asetalias.in/ALiAS_Blog/categories/example/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/ALiAS_Blog/categories/example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
