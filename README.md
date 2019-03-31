@@ -95,9 +95,11 @@ Windows 7 and 8.1 do not include the easy path editor included in Windows 10, so
 
 1) For hugo installation and usage instructions, refer to Hugo installation and setup Section.
 2) Fork the repository to your Github account.
-3) Clone the repository to your machine by using the command `git clone https://github.com/rohanvtk/ALiAS_Blog.git`
+3) Clone the repository to your machine by using the command `git clone https://github.com/<username>/ALiAS_Blog`
 4) Make the changes locally and push them to your own repository.
 5) Review the changes in your repository and submit a pull request.
+
+*hugo server starts a local server but hugo builds the website. Be careful when using the commands*
 
 * * *
 
@@ -110,6 +112,8 @@ Windows 7 and 8.1 do not include the easy path editor included in Windows 10, so
 3)  To run a local copy of the website, open the command prompt or your preferred CLI, change the directory to the address of the repository and use the command `hugo server` if you have hugo installed.
  *For instruction on Hugo installation and use, refer to Hugo installation and setup Section.*
 4)  Submit a pull request to submit your work.
+
+ *Use /ALiAS_Blog/images/name_of_file for your image source and keep the images them in the images folder in static*
 
 * * *
 

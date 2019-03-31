@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "http://asetalias.in/ALiAS_Blog/"
 languageCode = "en-us"
 title = "Alias Blog"
 theme = "hugo-theme-massively"
+publishDir = "docs"

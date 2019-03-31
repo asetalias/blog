@@ -1,7 +1,7 @@
 +++
 title = "ALiAS : My first open-source community"
 slug = "Journey with open source community"
-image = "images/Cover.jpg"
+image = "/images/Cover.jpg"
 date = "2018-02-20T00:00:00"
 description = "This blog describes my personal Journey with ALiAS"
 disableComments = false
@@ -13,14 +13,14 @@ author = "Kaushlendra Pratap"
 
  Now you all must be thinking this all is cool but
 
- ![Why?](/img/Why.gif)
+ ![Why?](/ALiAS_Blog/images/Why.gif)
 
 ## Why I chose ALiAS?
 
 
  Choosing community in college life is very important, Communities helps you to shape your future years in college. Being a part of the community helps you in several ways like, you can always find like-minded peoples in the community. Means, as a noob you can find noobs too and for guidance regarding any specific topic, there is always a group of individuals who have already worked on that tech. The motto of open source Communities is very attractive it says "Return as much as you can learn from the community, this is how the community grows". It simply means learning from communities should not be one-sided, if you have learned something from community help the community in spreading that to others who need it. ALiAS is following the same culture they set up weekly meetups, monthly events on any specific tech demanded by the members of the community and all of that is free. There are several other things that attracted me more towards ALiAS i.e Their approach for helping any individual towards any problem. Our seniors and their seniors from ALiAS always says "Don't ask to ask, No question is dumb". It simply means that in the community you can ask about everything related to anything without any hesitations. Your problem will be solved as soon as possible. These are some reasons which attracted me a year ago.
 
-![openSource](/img/opens.jpg)
+![openSource](/ALiAS_Blog/images/opens.jpg)
 
  Getting ideas about open-source, how it works and how can we contribute in it is an integral part of my journey with ALiAS. All the concepts I learnt, achievements I got in the community is mentioned in my Journey details.
 
@@ -29,7 +29,7 @@ author = "Kaushlendra Pratap"
 
  I bought my first laptop a gaming laptop which was not Linux friendly but after days of hard work and guidance I finally installed Linux in it. Which was a big achievement in itself as they say...
 
-  ![Linux-meme](/img/Meme.png)
+  ![Linux-meme](/ALiAS_Blog/images/Meme.png)
 
  The seniors in ALiAS also wanted some volunteers who can help them in conducting the events smoothly and they also want members who can look after the community after their pass-out from college. I am trying to represent my community as Github Campus Expert. Which will help my community in organising more smooth and big events. Hope the community will live long and it will work more smooth than ever.
 
@@ -38,7 +38,7 @@ author = "Kaushlendra Pratap"
 
  *Thank you for bearing me till the end. It's always fun writing about own experiences.*
 
- ![Thankyou](/img/Thankyou.gif)
+ ![Thankyou](/ALiAS_Blog/images/Thankyou.gif)
 
  Want to connect?
  [Github](https://github.com/Kaushl2208) | [LinkedIn](https://www.linkedin.com/in/kaushlendra-pratap-a523b9170/) | [Twitter](https://twitter.com/Kaushle92904808) | [Facebook](https://www.facebook.com/kaushlendra.pratap.52)

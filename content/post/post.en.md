@@ -1,7 +1,7 @@
-dhd+++
++++
 title = 'Sample post'
 slug = 'post'
-image = 'img/portfolio/bike1.jpg'
+image = '/images/about.jpg'
 date = "2012-02-06T00:00:00"
 author = 'Example Author'
 tags=['tag1','tag2']
