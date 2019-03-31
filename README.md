@@ -95,7 +95,7 @@ Windows 7 and 8.1 do not include the easy path editor included in Windows 10, so
 
 1) For hugo installation and usage instructions, refer to Hugo installation and setup Section.
 2) Fork the repository to your Github account.
-3) Clone the repository to your machine by using the command `git clone https://github.com/asetalias/ALiAS_Blog`
+3) Clone the repository to your machine by using the command `git clone https://github.com/<username>/ALiAS_Blog`
 4) Make the changes locally and push them to your own repository.
 5) Review the changes in your repository and submit a pull request.
 
