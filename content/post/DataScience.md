@@ -68,7 +68,7 @@ After getting familiar with various Machine Learning Algorithms, you can move fu
 - [Deep Learning](https://in.udacity.com/course/deep-learning--ud730-india)
 - [Deep Learning Book](https://www.deeplearningbook.org/)
 
-![ML Meme](/ALiAS_Blog/images/DS6.jpg)
+![ML Meme](/blog/images/DS6.jpg)
 
 ### Database :
 
@@ -80,7 +80,7 @@ Various tools for Big Data :
 - [Hadoop](https://in.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
 - [Hadoop & Map Reduce](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
 
-![Big Data](/ALiAS_Blog/images/BigData.jpg)
+![Big Data](/blog/images/BigData.jpg)
 
 ## Last Advice :
 
@@ -91,7 +91,7 @@ Learning Online is not an easy task, and with all these massive numbers of resou
 Don’t settle for just learning a concept and then moving to the next thing. The process of learning doesn’t stop until you can apply a concept to the real world. Work on some projects to implement these things. [Kaggle](https://www.kaggle.com/) have lots of various resources and competitions to apply your knowledge in some real-world projects and to learn from it.
 You'll feel so much motivated after being able to solve these problems, and who knows you can win some cash prizes too!
 
-![Old Data Scientist](/ALiAS_Blog/images/DSO.jpg)
+![Old Data Scientist](/blog/images/DSO.jpg)
 
 The applications of data science are endless. It is a life long learning process so enjoy your educational and adventurous journey to make some impact in the real world and to make this world a better place.
 **I wish you all the best for your wonderful upcoming future as a Data Scientist.**
