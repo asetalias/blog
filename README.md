@@ -1,4 +1,5 @@
 # ALiAS Blog
+[![Build Status](https://travis-ci.com/asetalias/blog.svg?branch=master)](https://travis-ci.com/asetalias/blog)
 
 This repository holds the source code and related content of the official blog for Amity Linux Assitance Sapience
 
