@@ -21,8 +21,21 @@
                             {{ if .Params.image }}
                             <div class="image main"><img src="{{ .Params.image | relURL }}" alt="" /></div>
                             {{ end }}
-														<p><b>Categories:</b>{{.Params.categories}} <br>
-														<b>Tags:</b>{{.Params.tags}}</p>
+														<p>
+                            {{ if .Params.categories}}
+														<b>Categories:</b>
+                            {{ range $elem_val := .Params.categories}}
+													  <a href = "http://asetalias.in/blog/categories/{{ $elem_val }}/">{{ $elem_val }}</a>
+														{{ end }}
+														{{ end }}
+														<br>
+														{{ if .Params.tags}}
+														<b>Tags:</b>
+														{{ range $elem_val := .Params.tags}}
+													  <a href = "http://asetalias.in/blog/tags/{{ $elem_val }}/">{{ $elem_val }}</a>
+														{{ end }}
+														{{ end }}
+													  </p>
                             {{ .Content }}
 														<p> <b>Author:</b> {{ .Params.author}}</p>
 

@@ -2412,7 +2412,20 @@
 
 /* Image */
 
-	.image {
+img[src$='#center']
+{
+    display: block;
+		margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+}
+
+.image {
 		border: 0;
 		display: inline-block;
 		position: relative;

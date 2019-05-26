@@ -37,7 +37,7 @@ These are some links for learning Python :
 - [Introduction to Python for Data Science](https://www.edx.org/course/introduction-python-data-science-2)
 - [Programming with Python for Data Science](https://www.edx.org/course/programming-with-python-for-data-science)
 
-<!--- ![Data Visulization](/ALiAS_Blog/images/DS1.jpg) "Image needs to be resized"--->
+<!--- ![Data Visulization](/blog/images/DS1.jpg) "Image needs to be resized"--->
 
 Get yourself familiar with **Numpy**, **Pandas**, & **Matplotlib**. Learn how to load, manipulate, and visualize data. Mastery of these libraries will be crucial to your personal projects. the only way you will learn these libraries is by using them. Don’t feel like you have to memorize every method or function name, that comes with practice. If you forget, Google it.
 
@@ -68,7 +68,7 @@ After getting familiar with various Machine Learning Algorithms, you can move fu
 - [Deep Learning](https://in.udacity.com/course/deep-learning--ud730-india)
 - [Deep Learning Book](https://www.deeplearningbook.org/)
 
-![ML Meme](/ALiAS_Blog/images/DS6.jpg)
+![ML Meme](/blog/images/DS6.jpg)
 
 ### Database :
 
@@ -80,18 +80,18 @@ Various tools for Big Data :
 - [Hadoop](https://in.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
 - [Hadoop & Map Reduce](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
 
-![Big Data](/ALiAS_Blog/images/BigData.jpg)
+![Big Data](/blog/images/BigData.jpg)
 
 ## Last Advice :
 
 Learning Online is not an easy task, and with all these massive numbers of resources, it is very easy to get side-tracked while learning online. Data Science is a different path other than all fields of Computer Science and at some point in time, you'll be frustrated that you have wasted all your time in learning these and your output is zero. But don't be disheartened by this, Data Science is like a marathon and you'll eventually have to invest a lot of time in this, leaving all other fields. You will feel like your friends and colleagues learning different other things are much more ahead of you. But after all the self-driven education and regularly organized time investment, you'll be eventually at another level than any of your contenders. It won’t be easy but to motivate your own education you will need perseverance and discipline. Then you can break into the data science industry no matter what your situation is.
 
-<!---![Data Science](/ALiAS_Blog/images/DS3.jpg) "image needs to be resized"--->
+<!---![Data Science](/blog/images/DS3.jpg) "image needs to be resized"--->
 
 Don’t settle for just learning a concept and then moving to the next thing. The process of learning doesn’t stop until you can apply a concept to the real world. Work on some projects to implement these things. [Kaggle](https://www.kaggle.com/) have lots of various resources and competitions to apply your knowledge in some real-world projects and to learn from it.
 You'll feel so much motivated after being able to solve these problems, and who knows you can win some cash prizes too!
 
-![Old Data Scientist](/ALiAS_Blog/images/DSO.jpg)
+![Old Data Scientist](/blog/images/DSO.jpg)
 
 The applications of data science are endless. It is a life long learning process so enjoy your educational and adventurous journey to make some impact in the real world and to make this world a better place.
 **I wish you all the best for your wonderful upcoming future as a Data Scientist.**

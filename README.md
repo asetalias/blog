@@ -114,7 +114,9 @@ Windows 7 and 8.1 do not include the easy path editor included in Windows 10, so
  *For instruction on Hugo installation and use, refer to Hugo installation and setup Section.*
 4)  Submit a pull request to submit your work.
 
- *Use /ALiAS_Blog/images/name_of_file for your image source and keep the images them in the images folder in static*
+ *Use /blog/images/name_of_file for your image source and keep the images in the images folder in static*
+
+ *You can use `[img](../img.jpg#center)` to center align your images.*
 
 * * *
 
