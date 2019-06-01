@@ -1,49 +1,7 @@
 <!-- Footer -->
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <footer id="footer">
-    {{ with $data.contactinfo.contactformaction }}
-    <section>
-        <form method="post" action="{{ . }}">
-            <div class="field">
-                <label for="name">{{ i18n "CONTACT_FORM_FIELD_NAME" . }}</label>
-                <input type="text" name="name" id="name" />
-            </div>
-            <div class="field">
-                <label for="email">{{ i18n "CONTACT_FORM_FIELD_EMAIL" . }}</label>
-                <input type="text" name="email" id="email" />
-            </div>
-            <div class="field">
-                <label for="message">{{ i18n "CONTACT_FORM_FIELD_MESSAGE" . }}</label>
-                <textarea name="message" id="message" rows="3"></textarea>
-            </div>
-            <ul class="actions">
-                <li><input type="submit" value='{{ i18n "CONTACT_FORM_SUBMIT_SEND_MESSAGE" . }}' /></li>
-            </ul>
-        </form>
-    </section>
-    {{ end }}
     <section class="split contact">
-        {{ with $data.contactinfo.address }}
-        <section class="alt">
-            <h3>ABOUT</h3>
-            <p>
-              Started back in 2010; With main aim to foster the growth of use of Linux for the developers in the campus and to promote the culture of hacking and sharing.
-              ALiAS is now a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.
-            </p>
-        </section>
-        {{ end }}
-        {{ with $data.contactinfo.phone }}
-        <section>
-            <h3>WEBSITE</h3>
-            <p><a href="http://asetalias.in/">asetalias.in</a></p>
-        </section>
-        {{ end }}
-        {{ with $data.contactinfo.email }}
-        <section>
-            <h3>{{ i18n "CONTACT_EMAIL" . }}</h3>
-            <p><a href="mailto:contactasetalias@gmail.com">contactasetalias@gmail.com</a></p>
-        </section>
-        {{ end }}
         {{ with $data.social }}
         <section>
             <h3>{{ i18n "CONTACT_SOCIAL" . }}</h3>

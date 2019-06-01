@@ -1,5 +1,5 @@
 baseURL = "http://asetalias.in/blog/"
 languageCode = "en-us"
-title = "Alias Blog"
+title = "ALiAS Writes"
 theme = "hugo-theme-massively"
 publishDir = "docs"
