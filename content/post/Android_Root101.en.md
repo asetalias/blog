@@ -4,6 +4,8 @@ slug = "Flashing Custom ROMs 101"
 date = "2018-02-25T00:00:00"
 description = "Sick and tired of the bloatware on your current OEM ROM. Head over and learn how to flash custom ROMs."
 author = "RohanVTK"
+tags = ['Smartphone', 'Customization']
+categories = ['Android']
 +++
 
 **_(This blog starts off with a warning: Although the process is super easy and there hardly is a chance that you will brick your device during the process but, it's my responsibility to make you aware of it)_**
@@ -36,7 +38,7 @@ Place this file inside the folder created after extraction.
     **_Link to OpenGapps: https://opengapps.org/_**
 
 * Now open up the command prompt on Windows with **_adminitrator priviliges_**.
-    
+
     _(To do this press the Windows key on your keyboard and search 'cmd' right click when command prompt comes up and chose 'Run as Administrator')_
 
 * Now go the directory where the files you downloaded have been stored.
@@ -67,7 +69,7 @@ Flashing would be done within a few minutes.
 
 *So, the tough part's over.* :D
 
-Moving on. 
+Moving on.
 
 > type-in `fastboot boot <nameOfTheRecoveryFile.img>`
 

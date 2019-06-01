@@ -6,6 +6,8 @@ date = "2018-02-20T00:00:00"
 description = "This blog describes my personal Journey with ALiAS"
 disableComments = false
 author = "Kaushlendra Pratap"
+tags = ['ALiAS','Experience','Open-Source','Communitites']
+categories = ['Experiences']
 +++
 
 ## How and when it all started?
