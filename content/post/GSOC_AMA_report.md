@@ -6,13 +6,15 @@ date = "2018-02-20T00:00:00"
 description = "A short report on ALiAS's successful Google Summer of Code program, and a brief story of how the idea came to life"
 disableComments = false
 author = "Multiple Authors: Sahil, Kaushlendra, Ayush, Vipul"
+categories = ["New Horizons"]
+tags = ['GSoC', 'Community', 'Google', 'AMA', 'FOSS', 'Amity', 'University']
 +++
 
 # ALiAS does it again: Report on our GSoC AMA program
 
-[ALiAS](https://asetalias.in) is the largest open-source community at Amity University and as one of the founding member of our small 500+ active member community nothing makes me more happier than writing about it and looking back on our accomplishments, failures and new initiatives.
+[ALiAS](https://asetalias.in) is the largest open-source community at Amity University and as one of the founding member of our small 500+ active member community nothing makes me happier than writing about it and looking back on our accomplishments, failures and new initiatives.
 
-ALiAS started out back in 2010, has now come a long way. After kickstarting it back in 2016, we have climbed several rungs in the ladder of success and with the support of our members we will continue to do. The GSoC Ask Me Anything program is a proof of the same. Here's a result, before we dive deeper.
+ALiAS started out back in 2010, has now come a long way. After kickstarting it back in 2016, we have climbed several rungs in the ladder of success and with the support of our members, we will continue to do. The GSoC Ask Me Anything program is proof of the same. Here's the results first, before we dive deeper into our brand new initiative.
 
 <blockquote class="twitter-tweet" data-lang="en" align=center><p lang="en" dir="ltr">Some stats of <a href="https://twitter.com/AsetALiAS?ref_src=twsrc%5Etfw">@AsetALiAS</a> <br><br>2016: 1 GSoCer <br>2017: 1 GSoCer<br>2018: 1 GSoCer<br><br>This year, worked to break the chain. <br>Spearheaded &quot;ALiAS GSoC AMA&quot; with the volunteer team. <br>15 days, 15 mentor interactions, tons of questions, feedback, mentorship later.<br><br>2019: 9 GSoCers. <br>Progress 📈</p>&mdash; Vipul Gupta 🐣🐍 (@vipulgupta2048) <a href="https://twitter.com/vipulgupta2048/status/1125479358355783680?ref_src=twsrc%5Etfw">May 6, 2019</a>
 </blockquote>
@@ -26,7 +28,7 @@ Well, if you don't know what is GSoC. Here's a brief overview.
 
 ## What is GSoC?
 
-GSoC is a 12 week program, sponsored by Google LLC to promote open-source among various college students around the world, where the people selected (Only 1200+ students total) are assigned to projects from different open-source organizations working over the summer contributing to open-source and helping them learn and contribute. You can learn more about GSoC from [here](https://mixstersite.wordpress.com/2018/04/25/123gsoc/).
+GSoC is a 12-week program, sponsored by Google LLC to promote open-source among various college students around the world, where the people selected (Only 1200+ students total) are assigned to projects from different open-source organizations working over the summer contributing to open-source and helping them learn and contribute. You can learn more about GSoC from [here](https://mixstersite.wordpress.com/2018/04/25/123gsoc/).
 
 <iframe width="560" height="315" align=center src="https://www.youtube.com/embed/QVnN34YGz8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -38,7 +40,7 @@ Henceforth, we had 15 mentors, for 15 days straight. Webinars, live sessions, da
 
 AMA (Ask Me Anything) sessions from the very beginning, have been completely open with people coming from together to help, mentor and participate in the program resulting in a nine times the selection this year compared to last 3 years! This was only possible because of our beliefs, teamwork and true hard work.
 
-> Be the change you want to see in the world or atleast try...
+> Be the change you want to see in the world or at least try...
 
 ## Activities Related to GSoC done by ALiAS:
 
@@ -79,17 +81,21 @@ ALiAS has always been helping students contribute to open source and will contin
 
 ## Feedback from the community!
 
-|||| 
-|--- |--- |--- | 
 |Name|Feedback|Selected?| 
+|--- |--- |--- | 
 |Parth Sharma|The whole alias community with special thanks to Vipul|Yes| 
 |Nikhil Maan|Thank you Vipul Gupta Bhaiya and Rohan Verma for the reviews and everyone present at the AMAs for the discussions.Also, special thanks to Vipul Bhaiya again for going out of the way to edit some parts of the proposal himself.|Yes| 
 |Ayush Agarwal|Thanks to Vipul in writing the proposal.|No| 
 |Omkar Yadav||No| 
-|Akshat Pande|Thank you so much, everyone, especially Mr. Vipul gupta❤️|No| 
+|Akshat Pande|Thank you so much, everyone, especially Mr. Vipul gupta❤️|No|
+| Mrinal Wahal | Thank you ALiAS, as a new member it gives me great pleasure to give ALiAS due credit for successfully organising the AMA and helping us get through GSOC |  Yes |
+|Ankit Dwivedi|Thank you for having me, ALiAS. The constant proposal reviews and guidance sessions really helped. |Yes|
+|Swarnim Arun| In my first year, I would have never hoped to clear GSOC. Now that I have I will continue contributing to ALiAS.|Yes|
 |Priyansh Chaudhary|Thanks to Vipul and ALiAS|No| 
 |Saurav|Yes, Vipul Gupta helped me in reviewing my proposal, thanks a lot to Vipul Gupta and all the members of ALiAS.|No| 
 |Sahil|yes, the AMA sessions cleared my lot of doubts|No| 
+|Utkarsh Gupta||Yes|
+|Ajay Tripathi||Yes|
 |Harsh Prasad|Thanks to Animesh Bhaiya|No|
 
 Every bit of this, couldn't be completed or even imagined without the help and direct input from the ALiAS Volunteer team who works hard to lead new initiatives, work with us on so many challenges. I would like to take some time to especially mention the people who constantly worked behind the AMA program, making it a success.
@@ -98,8 +104,8 @@ Every bit of this, couldn't be completed or even imagined without the help and d
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Credits: 
-* Report orginally by Sahil Jha and Kaushlendra Singh 
+* Report originally by Sahil Jha and Kaushlendra Singh 
 * Edited by Ayush Agarwal
-* Re-written for ALIAS, by Vipul Gupta.
+* Re-written for [**ALiAS Writes**](http://asetalias.in/blog), by Vipul Gupta.
 
 That's about it, guys. Let's hope ALiAS does great in 2019, and till then, you all live in the mix.
