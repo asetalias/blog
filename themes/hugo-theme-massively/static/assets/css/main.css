@@ -2419,11 +2419,6 @@ img[src$='#center']
     margin-right: auto;
 }
 
-.responsive {
-	max-width: 100%;
-	height: auto;
-}
-
 .image {
 		border: 0;
 		display: inline-block;
