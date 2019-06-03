@@ -1,13 +1,13 @@
 +++
-title = 'Sample post'
-slug = 'post'
+title = 'How to write like you have a brain on ALiAS Writes by the creators'
+slug = 'tutorial-post-for-kids'
 image = '/images/about.jpg'
 date = "2012-02-06T00:00:00"
-author = 'Example Author'
-tags=['tag1','tag2']
-categories =['example']
-description = 'This is a sample post which also includes the benifits of joining the community.'
-disableComments = true
+author = 'Creators of ALiAS Writes'
+tags=['this', 'is', 'how', 'tags', 'looks', 'like']
+categories =['Write', 'better', 'categories', 'than', 'this']
+description = 'This is a sample post which also includes the benefits of joining the community.'
+disableComments = false
 +++
 
 # Why should I join the club?
@@ -22,5 +22,8 @@ disableComments = true
 - ALiAS welcomes each and every student of amity irrespective of their department.
 - Already know something? Teach it to others! That's how we work!
 
+# Important Notes while writing the format
+
+To be continued..
 
 For a basic markdown guide, please visit [this link](https://www.markdownguide.org/basic-syntax/).

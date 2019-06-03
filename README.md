@@ -9,7 +9,7 @@ This repository holds the source code and related content of the official blog f
 
 ALiAS is a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.
 
-The website has been created using hugo and the theme used is hugo-nederburg-theme.
+The website has been created using hugo and the theme used is hugo-massively-theme.
 
 ## Want to help out?
 This website is currently under construction and all your inputs are highly appreciated.
@@ -39,7 +39,7 @@ This website is currently under construction and all your inputs are highly appr
 1) For hugo installation and usage instructions, refer to [Hugo installation and setup](./INSTALLATION.md).
 2) Fork the repository and clone to your machine by using the command 
 ```
-$ git clone https://github.com/<username>/ALiAS_Blog
+$ git clone https://github.com/<username>/blog
 ```
 3) Make the changes locally and push them to your own repository.
 4) Review the changes in your repository and submit a pull request.
@@ -54,10 +54,27 @@ The markup used for blog posts is **Markdown**
 
 1) Fork the repository and clone to your machine by using the command 
 ```
-$ git clone https://github.com/<username>/ALiAS_Blog
+$ git clone https://github.com/<username>/blog
 ```
 2) Create you work file/blog post in `/content/post`, see existing files as an example.
-2.5) The format needs to be exactly like [the sample post](./content/post/post.en.) for correct representation
+2.5) The format needs to be exactly like [the sample post](./content/post/post.en.) for correct representation. 
+
+Same has been given below. Edit and append this to the top of your post when finish writing. 
+
+```
++++
+title = 'WRITE_A_TITLE_DUH'
+slug = 'give-a-descriptive-slug-like-this-please'
+image = '/images/about.jpg'
+date = "2012-02-06T00:00:00"
+author = 'Creators of ALiAS Writes'
+tags=['this`, `is`, `how`, `tags`, `looks`, `like`]
+categories =['Write', 'better', 'categries', 'than', 'this']
+description = 'Small oneliners with a tinge of suspense works best'
+disableComments = false
++++
+```
+ 
 3)  To run a local copy of the website, open the command prompt or your preferred CLI, change the directory to the address of the repository and use the command `hugo server` if you have hugo installed.
  For instruction on Hugo installation and use, refer to [Hugo installation and setup](./INSTALLATION.md).
 4)  Submit a pull request to submit your work.
@@ -71,7 +88,7 @@ $ git clone https://github.com/<username>/ALiAS_Blog
 
 * * *
 
-## First time contributors:
+## First time contributors/Learn Git:
 
 1) For a begineers guide on using Github, Visit [Hello World-Github](https://guides.github.com/activities/hello-world/).
 2) For a guide to set up git for the first time, visit [Setting up Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).

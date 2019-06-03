@@ -2,14 +2,14 @@
 
 ## Windows (CLI Users)
 
-1) Visit the link [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download the latest release of hugo for Windows.(Hugo 0.53 at the time of writing this).
+1) Visit the link [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download the latest release of hugo for Windows.
 3) Create a directory named Hugo where you want your program to be installed.
 4) Create a subdirectory bin and extract the contents of the downloaded file in that.
 5) For CLI users, navigate to the location of your `hugo.exe` file, then add hugo.exe to PATH using the command 
 ```
 set PATH=%PATH%...\Hugo\bin
 ``` 
-where ... is the path to the Hugo directory.
+**where ... is the path to the Hugo directory.**
 
 ## Windows 10 (Non-CLI Users)
 
