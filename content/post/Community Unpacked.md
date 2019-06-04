@@ -1,16 +1,14 @@
 +++
 title = "Community Unpacked"
-slug = "community"
+slug = "alias-lucknow-journey-akshat"
 image = "images/akshat0047/i1.jpg"
 date = "2018-02-20T00:00:00"
 description = "My journey to set up a coding community in my college campus i.e. ALiAS LUCKNOW"
 disableComments = false
 author = "Akshat Pande"
-tags = " community,coding,amity,college"
-categories = " niche"
+tags = ['communities','Coding','Amity','ALiAS','Open-Source']
+categories = ['niche', 'Community']
 +++
-
-# COMMUNITY UNPACKED
 
 The first time, getting introduced to the world of development, I was amazed! exploring a number of technologies in the initial days of my B.Tech just for the sake of knowledge and after working on few of them at last chose, web development as my primary field.  
 One of my classmate suggested me to join [ALiAS](https://asetalias.in), a coding community of Amity University, Noida which was the main branch of our college.
@@ -22,8 +20,6 @@ One of my classmate suggested me to join [ALiAS](https://asetalias.in), a coding
 Starting with small projects like webpages, learning **HTML + CSS + JS** like every front-end developer out there, cheers !
 
 I came across situations where I celebrated the success of my code and on the other hand irritated, when it did not worked, even after multiple attempts of mine. I asked my doubts in the community whatsapp group, became part of **great discussions, listened to experiences** etc. It was going perfect but….
-
-<br />
 
 ![Team Work](/img/akshat0047/i1.jpg)
 
@@ -44,9 +40,7 @@ This marked the start of my real journey, not as a developer or mentor but as a 
 
 I showed an immense interest to transform it into a successful community which is still in the process, and the best part being, it made me learn a lot which was **not limited up to technical skills instead from management of events, to becoming a speaker, arranging webinars, promoting my juniors to indulge in the same**, overall making an experience worth sharing.
 
-<br />
-
-![aliaalko](/img/akshat0047/i2.jpg)
+![aliaslko](/img/akshat0047/i2.jpg)
 
 [ALiAS LUCKNOW](lucknow.asetalias.in) established in 2018 is a chapter of ALIAS (Amity Linux Assistance Sapience), Noida which is a part of well known coding societies in the NCR
 
