@@ -68,8 +68,8 @@ slug = 'give-a-descriptive-slug-like-this-please'
 image = '/images/about.jpg'
 date = "2012-02-06T00:00:00"
 author = 'Creators of ALiAS Writes'
-tags=['this`, `is`, `how`, `tags`, `looks`, `like`]
-categories =['Write', 'better', 'categries', 'than', 'this']
+tags=['this', 'is', 'how', 'tags', 'looks-like']
+categories =['Write', 'better-categries', 'than', 'this']
 description = 'Small oneliners with a tinge of suspense works best'
 disableComments = false
 +++
