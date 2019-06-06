@@ -6,7 +6,7 @@ date = "2018-02-20T00:00:00"
 description = "A step by step guide for beginners to understand and learn data science."
 disableComments = false
 author = "Ayush Bhardwaj"
-tags = ['Data Science', 'Introduction','Python','Machine Learning','Deep Learning']
+tags = ['Data-Science', 'Introduction','Python','Machine-learning','Deep-learning']
 categories = ['Beginner','Technology']
 +++
 

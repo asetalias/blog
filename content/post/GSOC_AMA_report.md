@@ -6,7 +6,7 @@ date = "2019-06-02T00:00:00"
 description = "A short report on ALiAS's successful Google Summer of Code program, and a brief story of how the idea came to life"
 disableComments = false
 author = "Sahil, Kaushlendra, Ayush, Vipul"
-categories = ["New Horizons"]
+categories = ["New-Horizons"]
 tags = ['GSoC', 'Community', 'Google', 'AMA', 'FOSS', 'Amity', 'University']
 +++
 
@@ -40,7 +40,7 @@ Henceforth, we had **15 mentors**, for **15 days** straight. For a streak of web
 
 **AMA (Ask Me Anything) sessions** from the very beginning, have been completely **open** with people coming from together to help, mentor and participate in the program resulting in a nine times the selection this year compared to last 3 years! **This was only possible because of our beliefs, teamwork and true hard work.**
 
-> Be the change you want to see in the world 
+> Be the change you want to see in the world
 > or at least try ...
 
 
