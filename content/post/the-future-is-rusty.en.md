@@ -50,6 +50,7 @@ Because Rust has the backing of Mozilla group (the people behind Firefox). And G
 
 ### So how does Rust provide memory safety?
 > It's elementary my dear Watson.
+
 Rust has compile-time reference counting and "Ownership and Borrowing". Which allows it to check the code for possible mistakes, and clear up memory without the need for clunky garbage collectors.
 And yes, it's quite similar to what you refer to as unique_pointer in C++. But the difference lies in the fact that in Rust it's a compile-time check whereas in C++ it's performed at runtime.
 
