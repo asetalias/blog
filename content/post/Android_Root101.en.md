@@ -1,6 +1,6 @@
 +++
 title = "A Guide to Flashing Custom ROMs [Android]"
-slug = "csrom101"
+slug = "custom-rom-101"
 date = "2018-02-25T00:00:00"
 image = "img/rohanvtk/csrom.jpg"
 description = "Sick and tired of the bloatware on your current OEM ROM. Head over and learn how to flash custom ROMs."
