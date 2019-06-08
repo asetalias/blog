@@ -40,7 +40,7 @@ Place this file inside the folder created in the above step.
 
 * Now open up the command prompt on Windows with **_adminitrator priviliges_**.
 
-    _(To do this press the Windows key on your keyboard and search 'cmd' ,right click when command prompt comes up and chose 'Run as Administrator')_
+    _(To do that, press the `Windows key` on your keyboard and search 'cmd', right click when command prompt comes up and chose 'Run as Administrator')_
 
 * Now go the directory where the files you downloaded have been stored.
     if you don't know how to use Command Prompt
