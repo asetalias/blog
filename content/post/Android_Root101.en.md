@@ -22,7 +22,7 @@ The guide would be inclined more towards Xiaomi devices as I own one and have wo
 
 * **_Download ADB(Android Debug Bridge) and Fastboot files from this link: [Click-Here](http://rootjunkysdl.com/files/?dir=Adb%20Fastboot%20Files)_**
 
-    A .zip file will be downloaded. Extract these files to a folder. (If you're using Windows all the drivers will be installed automatically)
+    A `.zip` file will be downloaded. Extract these files to a folder. (If you're using Windows all the drivers will be installed automatically)
 
 * **_Next, download twrp recovery file(a `.img` file). Make sure that the twrp file is downloaded from here: [Click-Here](https://twrp.me/Devices/)_**
 
