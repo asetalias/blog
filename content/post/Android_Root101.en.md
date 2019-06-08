@@ -49,6 +49,7 @@ Place this file inside the folder created in the above step.
 
 > `cd..` is used to go down one directory
 
+Enable Developer Options on your phone and enable USB-Debugging. To know more [click-here](https://www.google.com/search?rlz=1C1CHBD_enIN850IN850&ei=5L_7XI0insTPuw-E0JiIAQ&q=how+to+enable+developer+option+in+android&oq=how+to+enable+developer+option+in+android&gs_l=psy-ab.3..35i39j0j0i20i263j0l4j0i30l3.2954.3254..4277...0.0..0.140.265.0j2......0....1..gws-wiz.......0i71j35i304i39j0i13j0i13i30.0E6WUqzOMPo)
 
 Finally, enter fastboot mode on your phone. How-to methods have been listed below(Use any one of the following):
 
@@ -56,7 +57,7 @@ Finally, enter fastboot mode on your phone. How-to methods have been listed belo
 
 2. Connect your phone to the PC after enabling the ADB debugging mode in the developer settings
 
-> Use `adb devices` when your device shows up 
+> type `adb devices` when your device shows up 
 
 > type `adb reboot-bootloader`
 
