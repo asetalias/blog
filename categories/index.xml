@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/categories/</link>
+    <description>Recent content in Categories on ALiAS Writes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Jun 2019 04:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://asetalias.in/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian</title>
+      <link>http://asetalias.in/blog/categories/debian/</link>
+      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maintainer</title>
+      <link>http://asetalias.in/blog/categories/maintainer/</link>
+      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/maintainer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Packaging</title>
+      <link>http://asetalias.in/blog/categories/packaging/</link>
+      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/packaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Horizons</title>
+      <link>http://asetalias.in/blog/categories/new-horizons/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/new-horizons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://asetalias.in/blog/categories/android/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beginner</title>
+      <link>http://asetalias.in/blog/categories/beginner/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/beginner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://asetalias.in/blog/categories/community/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experiences</title>
+      <link>http://asetalias.in/blog/categories/experiences/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/experiences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>http://asetalias.in/blog/categories/technology/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>niche</title>
+      <link>http://asetalias.in/blog/categories/niche/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/niche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Write</title>
+      <link>http://asetalias.in/blog/categories/write/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/write/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>better-categories</title>
+      <link>http://asetalias.in/blog/categories/better-categories/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/better-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>than</title>
+      <link>http://asetalias.in/blog/categories/than/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/than/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>this</title>
+      <link>http://asetalias.in/blog/categories/this/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/this/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

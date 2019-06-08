@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amity on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/tags/amity/</link>
+    <description>Recent content in Amity on ALiAS Writes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://asetalias.in/blog/tags/amity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ALiAS does it again: Report on our GSoC AMA program</title>
+      <link>http://asetalias.in/blog/post/aliasama/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/aliasama/</guid>
+      <description>ALiAS is the largest open-source community at Amity University and as one of the founding member of our small 500+ active member community nothing makes me happier than writing about it and looking back on our accomplishments, failures and new initiatives.
+ALiAS started out back in 2010, has now come a long way. After kickstarting it back in 2016, we have climbed several rungs in the ladder of success and with the support of our members, we will continue to do.</description>
+    </item>
+    
+    <item>
+      <title>Community Unpacked</title>
+      <link>http://asetalias.in/blog/post/alias-lucknow-journey-akshat/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/alias-lucknow-journey-akshat/</guid>
+      <description>The first time, getting introduced to the world of development, I was amazed! exploring a number of technologies in the initial days of my B.Tech just for the sake of knowledge and after working on few of them at last chose, web development as my primary field.
+One of my classmate suggested me to join ALiAS, a coding community of Amity University, Noida which was the main branch of our college.</description>
+    </item>
+    
+  </channel>
+</rss>

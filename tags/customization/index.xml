@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customization on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/tags/customization/</link>
+    <description>Recent content in Customization on ALiAS Writes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://asetalias.in/blog/tags/customization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Guide to Flashing Custom ROMs [Android]</title>
+      <link>http://asetalias.in/blog/post/flashing-custom-roms-101/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/flashing-custom-roms-101/</guid>
+      <description>(This blog starts off with a warning: Although the process is super easy and there hardly is a chance that you will brick your device during the process but, it&amp;rsquo;s my responsibility to make you aware of it)
+The guide would be inclined more towards Xiaomi devices as I own one and have worked with it. But, all other devices follow the same process, so go ahead and give it a read.</description>
+    </item>
+    
+  </channel>
+</rss>

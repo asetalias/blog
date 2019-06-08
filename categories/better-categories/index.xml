@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>better-categories on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/categories/better-categories/</link>
+    <description>Recent content in better-categories on ALiAS Writes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Feb 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://asetalias.in/blog/categories/better-categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to write like you have a brain on ALiAS Writes by the creators</title>
+      <link>http://asetalias.in/blog/post/tutorial-post-for-kids/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/tutorial-post-for-kids/</guid>
+      <description>Why should I join the club? Join the club and which is just not about certificates or designation(s):  Stand out of crowd and learn unique skills from people already working in the industry! Find like minded Delhi/NCR Tech Communities. Find mentors for GSoC Learn Linux, Android, Networking, etc. There is no limit on how much and what you can learn! Chance to find Interships under our Alumni. ALiAS welcomes each and every student of amity irrespective of their department.</description>
+    </item>
+    
+  </channel>
+</rss>

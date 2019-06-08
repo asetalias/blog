@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/tags/introduction/</link>
+    <description>Recent content in Introduction on ALiAS Writes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://asetalias.in/blog/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Science: A Beginner&#39;s Roadmap</title>
+      <link>http://asetalias.in/blog/post/datascience/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/datascience/</guid>
+      <description>What is the hype about this buzz word &amp;ldquo;Data Science&amp;rdquo;? Data science is a tool that turns data into real-world actions. These include machine learning, database technologies, statistics, programming, and domain-specific technologies. It&amp;rsquo;s about collecting, analyzing, communicating and modeling the data around us in a productive way. Data science includes, Experimentation, Exploratory analysis, analytics,business intelligence, etc and the most popular ones are Machine Learning and AI. Machine learning and AI dominates because of the trends that all the new companies and startups want to establish their structure or base.</description>
+    </item>
+    
+  </channel>
+</rss>
