@@ -11,7 +11,7 @@ categories = ['Android']
 
 **_This blog starts off with a warning: Although the process is super easy and the chances of your phone getting bricked(useless) are negligible but, it's my responsibility to make you aware of it_**
 
-The guide would be inclined more towards Xiaomi devices as I own one and have worked with it. But, all other devices follow the same process, so go ahead and give it a read.
+The guide would be inclined more towards Xiaomi devices as I own one and have worked with it. But, all other devices follow a similar process, so go ahead and give it a read.
 
 * To start off with, you should have an unlocked bootloader.
 
