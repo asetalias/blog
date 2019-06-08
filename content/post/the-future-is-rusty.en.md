@@ -29,6 +29,7 @@ Now with the perspective of such awesome people out of the way let me explain wh
 - It overly complicated for little gain in ease of use. And the so-called efficient abstractions make it hard to change code down the line.
 
 [Read here for Linus Torvalds Comments](http://harmful.cat-v.org/software/c++/linus)
+
 [And, here for why C++ sucks](https://news.ycombinator.com/item?id=11147031)
 
 
@@ -67,4 +68,4 @@ So is that all? Not at all, Rust is a rather fascinating language, and I will su
 
 #### Find me at @swarnimarun on [Twitter](https://twitter.com/swarnimarun) or [Github](https://github.com/swarnimarun). Or my blog at [swarnimarun.github.io](https://swarnimarun.github.io)
 
-PS: Hopefully the blog will be a little more lively when you all read it. Also have a rough log of my GSoC experience as a first year :P
+PS: Hopefully the blog will be a little more lively when you all read it. Also I will add a rough log of my GSoC experience as a first year :P
