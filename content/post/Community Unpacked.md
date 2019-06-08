@@ -1,7 +1,7 @@
 +++
 title = "Community Unpacked"
 slug = "alias-lucknow-journey-akshat"
-image = "images/akshat0047/i1.jpg"
+image = "images/i1.jpg"
 date = "2018-02-20T00:00:00"
 description = "My journey to set up a coding community in my college campus i.e. ALiAS LUCKNOW"
 disableComments = false
@@ -21,7 +21,7 @@ Starting with small projects like webpages, learning **HTML + CSS + JS** like ev
 
 I came across situations where I celebrated the success of my code and on the other hand irritated, when it did not worked, even after multiple attempts of mine. I asked my doubts in the community whatsapp group, became part of **great discussions, listened to experiences** etc. It was going perfect but….
 
-![Team Work](/img/akshat0047/i1.jpg)
+![Team Work](/blog/images/i1.jpg)
 
 Soon, I realized that there were not much people involved into such productive things in my surrounding.
 Few of them were busy in mugging up the notes and most of them in typical college activities.  
@@ -40,7 +40,7 @@ This marked the start of my real journey, not as a developer or mentor but as a 
 
 I showed an immense interest to transform it into a successful community which is still in the process, and the best part being, it made me learn a lot which was **not limited up to technical skills instead from management of events, to becoming a speaker, arranging webinars, promoting my juniors to indulge in the same**, overall making an experience worth sharing.
 
-![aliaslko](/img/akshat0047/i2.jpg)
+![aliaslko](/blog/images/i2.jpg)
 
 [ALiAS LUCKNOW](lucknow.asetalias.in) established in 2018 is a chapter of ALIAS (Amity Linux Assistance Sapience), Noida which is a part of well known coding societies in the NCR
 
@@ -48,7 +48,7 @@ We have a mutual aim to promote the use of open source among the students and he
 
 Our community is not limited to a specific field instead we believe to strive in every direction, until perfection is achieved. We usually discuss our ideas in the college time apart from this all the members are added in a whatsapp group where knowledge sharing is on 24x7 basis.
 
-![Meetup](/img/akshat0047/i3.jpg)
+![Meetup](/blog/images/i3.jpg)
 
 > ### The greatness of a community is most accurately measured by the compassionate actions of its members.
 >
