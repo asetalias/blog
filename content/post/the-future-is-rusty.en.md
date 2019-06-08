@@ -23,6 +23,7 @@ I will not add more comments to the above statement as I believe it to be the mo
 C++, as described by Linus Torvalds, it's a not-so-good programming language(actually he called it horrible and crappy). Or as stated by Donald Knuth, "C++ has a lot of good features, but it has a lot of dirty corners".
 
 Now with the perspective of such awesome people out of the way let me explain why C++ sucks from my view (again I am not an expert).
+
 - It feels like an abstract collage of a slew of languages like ALGOL, Ada, Simula, CLU and C (of course). 
 - It forces OOP ideologies on the programmer in a very ambiguous manner.
 - It overly complicated for little gain in ease of use. And the so-called efficient abstractions make it hard to change code down the line.
