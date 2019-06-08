@@ -56,7 +56,7 @@ Finally, enter fastboot mode on your phone. How-to methods have been listed belo
 
 2. Connect your phone to the PC after enabling the ADB debugging mode in the developer settings
 
-> type `adb devices` if your device shows up then,
+> Use `adb devices` when your device shows up 
 
 > type `adb reboot-bootloader`
 
