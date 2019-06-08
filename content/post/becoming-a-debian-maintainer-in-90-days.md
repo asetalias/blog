@@ -1,7 +1,7 @@
 +++
 title = 'Becoming a Debian Maintainer in 90 days!'
-slug = 'Getting access to dput'
-image = '/static/img/utkarsh2102/debian.png'
+slug = 'build-commit-dput'
+image = '/img/utkarsh2102/debian.png'
 date = "2019-06-02T04:00:00"
 author = 'Utkarsh Gupta'
 tags=['debian', 'maintainer', 'DM', 'packaging', 'open-source']
@@ -19,7 +19,7 @@ I started contributing to open source around a year back and on 1st January
 I'll be honest here. The reason behind taking the "Debian road" was solely to
 distract myself from the mental abuse I was going through.  
 
-[Raju](https://nm.debian.org/rajudev) was the person who started helping me out,
+[Raju](https://nm.debian.org/person/rajudev) was the person who started helping me out,
 both, personally and professionally. He's the one who taught me packaging from
 scratch with utmost patience and kept answering all my stupid doubts :D  
 To be honest, if it weren't for him, I wouldn't have been here, at this
@@ -28,7 +28,7 @@ position today.
 Since I wanted to distract myself from various stuff, I learned things quickly and
 kept working, *consistently*.  
 I turned up on IRC every single day since then.
-[Praveen](https://nm.debian.org/praveen) became both, my guru and my package
+[Praveen](https://nm.debian.org/person/praveen) became both, my guru and my package
 sponsorer. He kept uploading and I kept packaging. This went on for a month
 until my difficulty level was bumped. From basic Ruby gems and Node libraries, I
 was given gems and modules that had test failures to debug and had a weirdly
@@ -45,7 +45,7 @@ failures, RC bugs and learned a lot of stuff (still a lot, lot more to learn,
 though) in the process, like understanding about the Debian release cycle, how
 the migration of package takes place, setting up your own repositories, et al.  
 
-In this process, I also met another JS guru, [Xavier](https://nm.debian.org/yadd).
+In this process, I also met another JS guru, [Xavier](https://nm.debian.org/person/yadd).
 He did not only corrected my mistakes and sponsored my packages, but also helped me
 in actually understanding a lot of things. From the mailing list, we started
 conversing over private mail threads and soon, in a span of 3 months, the thread
