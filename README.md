@@ -11,6 +11,8 @@ ALiAS is a platform for upcoming developers for finding exposure by meeting the 
 
 The website has been created using hugo and the theme used is hugo-massively-theme.
 
+### WIP Branch for move to Jekyll Blog Theme
+
 ## Want to help out?
 This website is currently under construction and all your inputs are highly appreciated.
 -   Any writers willing to add your own thoughts to the blog can refer to the [instructions for Writer](https://github.com/asetalias/blog/#instruction-for-writers) section to learn about posting on the blog.
@@ -22,7 +24,7 @@ This website is currently under construction and all your inputs are highly appr
 * * *
 
 ## Website Setup
-
+<!--TODO: Need to be changed to Jekyll and Bundler instructions-->
 0) For hugo installation and usage instructions, refer to [Hugo installation and setup](./INSTALLATION.md).
 1) Clone this repository.
 2) Open Terminal or your preferred CLI and navigate to the location of the repository.
@@ -33,6 +35,7 @@ This website is currently under construction and all your inputs are highly appr
 * * *
 
 ## Instrucitons for Developers:
+<!--TODO: Need to be changed to Jekyll and Bundler instructions-->
 
 `Git is required to contribute to the website and Hugo is required to run the site and test it on a local server.`
 
@@ -49,6 +52,7 @@ $ git clone https://github.com/<username>/blog
 * * *
 
 ## Instruction for Writers:
+<!--TODO: Need to be changed to Liquid Templating-->
 
 The markup used for blog posts is **Markdown**
 
@@ -80,6 +84,8 @@ disableComments = false
 4)  Submit a pull request to submit your work.
 
 ### Important Notes
+<!--TODO: Need to be changed as per new Theming System details-->
+
 -  Use `/blog/images/name_of_file` for your image source and keep the images in the images folder in static.
 -  You can use `[img](../img.jpg#center)` to **center align** your images.
 -  Make sure the format is **correct** as per **point 2.5**
@@ -98,6 +104,7 @@ disableComments = false
 * * *
 
 ## Help and other Documentation:
+<!--TODO: Need to be changed to Ruby & Jekyll-->
 
 1) *For hugo documentation, [click here](https://gohugo.io/documentation).*
 2) *For markdown cheat sheet, [click here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code).*
