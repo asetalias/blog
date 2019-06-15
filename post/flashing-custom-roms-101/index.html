@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+	<head>
+		<title>A Guide to Flashing Custom ROMs [Android] &middot; ALiAS Writes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/blog/assets/css/main.css' />
+		
+		<noscript><link rel="stylesheet" href='/blog/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<style>
+img.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+<header id="header">
+    <a href='/blog/' class="logo"><img src="/blog/images/logo.png" alt="ALiAS Blog" class ="responsive" width="450px" height="180px"></a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='/blog/'>ALiAS Writes</a></li>
+        
+    </ul>
+    
+    <ul class="icons">
+        
+        <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        
+        
+        <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        
+        
+        <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">February 25, 2018</span>
+                                
+                                <h1>A Guide to Flashing Custom ROMs [Android]</h1>
+                                <p>Sick and tired of the bloatware on your current OEM ROM. Head over and learn how to flash custom ROMs.</p>
+                            </header>
+                            
+														<p>
+                            
+														<b>Categories:</b>
+                            
+													  <a href = "http://asetalias.in/blog/categories/android/">Android</a>
+														
+														
+														<br>
+														
+														<b>Tags:</b>
+														
+													  <a href = "http://asetalias.in/blog/tags/smartphone/">Smartphone</a>
+														
+													  <a href = "http://asetalias.in/blog/tags/customization/">Customization</a>
+														
+														
+                            </p>
+                            <p><strong><em>(This blog starts off with a warning: Although the process is super easy and there hardly is a chance that you will brick your device during the process but, it&rsquo;s my responsibility to make you aware of it)</em></strong></p>
+
+<p>The guide would be inclined more towards Xiaomi devices as I own one and have worked with it. But, all other devices follow the same process, so go ahead and give it a read.</p>
+
+<ul>
+<li><p>To start off with, you should have a unlocked bootloader.</p>
+
+<p><strong><em>For Xiaomi devices refer to the following link : <a href="https://en.miui.com/unlock/">Click-Here</a></em></strong></p>
+
+<p>Follow the process and you&rsquo;ll surely have an unlocked bootloader in no time.
+<em>(Although it might take some time for Xiaomi to process your request but thereafter it&rsquo;s a really fast process)</em></p></li>
+
+<li><p><strong><em>Download ADB(Android Debug Bridge) and Fastboot files from this link: <a href="http://rootjunkysdl.com/files/?dir=Adb%20Fastboot%20Files">Click-Here</a></em></strong></p>
+
+<p>A .zip file for Windows will be downloaded. Extract these files to a folder.</p></li>
+
+<li><p><strong><em>Next, download twrp recovery file(a <code>.img</code> file). Make sure that the twrp file is downloaded from here: <a href="https://twrp.me/Devices/">Click-Here</a></em></strong></p></li>
+</ul>
+
+<p>Place this file inside the folder created after extraction.</p>
+
+<p><strong><em>Make sure that the ADB, fastboot, recovery file and the rest of the files are placed inside the same folder.</em></strong></p>
+
+<ul>
+<li><p>Now download a ROM of your choice. <em>(I personally use AOSP Extended ROM, it&rsquo;s pretty stable and is really performant when compared to other ROMs).</em></p>
+
+<p><strong><em>Link to AOSP Extended: <a href="https://www.aospextended.com/">https://www.aospextended.com/</a></em></strong></p></li>
+
+<li><p>Also, download google apps .zip file.</p>
+
+<p><strong><em>Link to OpenGapps: <a href="https://opengapps.org/">https://opengapps.org/</a></em></strong></p></li>
+
+<li><p>Now open up the command prompt on Windows with <strong><em>adminitrator priviliges</em></strong>.</p>
+
+<p><em>(To do this press the Windows key on your keyboard and search &lsquo;cmd&rsquo; right click when command prompt comes up and chose &lsquo;Run as Administrator&rsquo;)</em></p></li>
+
+<li><p>Now go the directory where the files you downloaded have been stored.
+if you don&rsquo;t know how to use Command Prompt</p></li>
+</ul>
+
+<blockquote>
+<p><code>cd &lt;dirname&gt;</code> is use to go up a directory</p>
+
+<p><code>cd..</code> is used to go down one directory</p>
+</blockquote>
+
+<p>Finally pick your phone up and go to the fastboot mode, two methods have been listed below use any:</p>
+
+<pre><code>1. Reboot to Bootloader -&gt;(Hold Power + Volume down)
+
+2. Connect your phone to the PC after enabling the ADB debugging mode in the developer settings
+</code></pre>
+
+<blockquote>
+<p>type <code>adb devices</code> if your device shows up then,</p>
+
+<p>type <code>adb reboot-bootloader</code></p>
+</blockquote>
+
+<p>Now to check that your device has entered the fastboot mode and is connected to the system <em>(connect your phone to the system if you followed method 1 mentioned above)</em></p>
+
+<blockquote>
+<p>type-in <code>fastboot devices</code> if your device shows up then,</p>
+
+<p>type-in <code>fastboot flash recovery &lt;nameOfTheRecoveryFile.img&gt;</code></p>
+</blockquote>
+
+<p>Flashing would be done within a few minutes.</p>
+
+<p><em>So, the tough part&rsquo;s over.</em> :D</p>
+
+<p>Moving on.</p>
+
+<blockquote>
+<p>type-in <code>fastboot boot &lt;nameOfTheRecoveryFile.img&gt;</code></p>
+</blockquote>
+
+<p>Now the TWRP recovery opens up.</p>
+
+<p>Transfer the ROM &amp; Gapps file to the phone storage and click on install in TWRP recovery.</p>
+
+<p>Find the .zip files.</p>
+
+<p>Install the ROM and thereafter install Google Apps from the .zip file.</p>
+
+<p><em>After completing the process make sure to clear the Dalvik Cache and Cache memory.</em></p>
+
+<p><em>Reboot the Device.</em></p>
+
+<p><strong><em>Congratulations! Now you have a phone with a CUSTOM ROM of your own choice with no bloatwares.</em></strong></p>
+
+<hr />
+
+<hr />
+
+<p><em>If during the process you encoutered any issues do look up your issues on XDA or else Google your issues, you&rsquo;ll surely find a solution.</em></p>
+
+<p><em>If you enjoyed reading this article do let me know by tweeting to me on my <strong>twitter-handle @RohanVTK</strong>. Your input will highly appreciable as well.</em></p>
+
+<p><em>If you encouter any dead links do tweet about it, the links will be updated.</em></p>
+
+														<p> <b>Author:</b> RohanVTK</p>
+
+                            
+
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    <section class="split contact">
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              
+              <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              
+              
+              <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              
+              
+              <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              
+              
+              <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+              
+              
+              <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+              
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; ALiAS Writes</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/blog/assets/js/jquery.min.js'></script>
+<script src='/blog/assets/js/jquery.scrollex.min.js'></script>
+<script src='/blog/assets/js/jquery.scrolly.min.js'></script>
+<script src='/blog/assets/js/skel.min.js'></script>
+<script src='/blog/assets/js/util.js'></script>
+<script src='/blog/assets/js/main.js'></script>
+
+
+	</body>
+</html>

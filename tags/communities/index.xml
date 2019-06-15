@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>communities on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/tags/communities/</link>
+    <description>Recent content in communities on ALiAS Writes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://asetalias.in/blog/tags/communities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Community Unpacked</title>
+      <link>http://asetalias.in/blog/post/alias-lucknow-journey-akshat/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/alias-lucknow-journey-akshat/</guid>
+      <description>The first time, getting introduced to the world of development, I was amazed! exploring a number of technologies in the initial days of my B.Tech just for the sake of knowledge and after working on few of them at last chose, web development as my primary field.
+One of my classmate suggested me to join ALiAS, a coding community of Amity University, Noida which was the main branch of our college.</description>
+    </item>
+    
+  </channel>
+</rss>

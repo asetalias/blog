@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experience on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/tags/experience/</link>
+    <description>Recent content in Experience on ALiAS Writes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://asetalias.in/blog/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ALiAS : My first open-source community</title>
+      <link>http://asetalias.in/blog/post/journey-with-open-source-community/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/journey-with-open-source-community/</guid>
+      <description>How and when it all started? I started my college here at Amity in 2017 till then I was completely unaware of how the communities work. Few days passed, I started exploring events in colleges than one of my friends told me about ALiAS also known as (Amity Linux Assistance Sapience). He told me that there is something also known as Open-Source and this community supports open source and this community is one of its kind in the college.</description>
+    </item>
+    
+  </channel>
+</rss>
