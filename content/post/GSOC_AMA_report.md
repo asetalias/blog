@@ -107,7 +107,7 @@ Every bit of this, couldn't be completed or even imagined without the help and d
 
 ## [Update] ALiAS hits its mark in Alibaba Summer of Code 2019
 
-[Sahil Jha](https://twitter.com/sjha2048), sophomore year student from the Computer Science Dept. of Amity Uni. and a long standing member of our community, was just accepted into [Alibaba Summer of code](https://developer.aliyun.com/summerofcode2019) and we are so happy. Join us into congratulating him.
+[Sahil Jha](https://twitter.com/sjha2048), a sophomore from the Computer Science Dept. of Amity University, and a long-standing member of our community was just accepted into [Alibaba Summer of code](https://developer.aliyun.com/summerofcode2019) and we are so happy. Join us into congratulating him.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Elated to share with everyone that i have been selected for ali baba summer of code 2019, Great challenge ahead, intrigued to learn more through this amazing experience <br>Thanks Alibaba for giving me this superb opportunity!!<a href="https://twitter.com/AlibabaGroup?ref_src=twsrc%5Etfw">@AlibabaGroup</a> <a href="https://twitter.com/AsetALiAS?ref_src=twsrc%5Etfw">@AsetALiAS</a> <a href="https://t.co/PE2c29JcEZ">pic.twitter.com/PE2c29JcEZ</a></p>&mdash; sahil jha (@sjha2048) <a href="https://twitter.com/sjha2048/status/1142330209699393536?ref_src=twsrc%5Etfw">June 22, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
