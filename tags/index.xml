@@ -12,24 +12,6 @@
     
     
     <item>
-      <title>DM</title>
-      <link>http://asetalias.in/blog/tags/dm/</link>
-      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/tags/dm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open-Source</title>
-      <link>http://asetalias.in/blog/tags/open-source/</link>
-      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>debian</title>
       <link>http://asetalias.in/blog/tags/debian/</link>
       <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
@@ -39,11 +21,29 @@
     </item>
     
     <item>
+      <title>DM</title>
+      <link>http://asetalias.in/blog/tags/dm/</link>
+      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/dm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>maintainer</title>
       <link>http://asetalias.in/blog/tags/maintainer/</link>
       <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/tags/maintainer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-Source</title>
+      <link>http://asetalias.in/blog/tags/open-source/</link>
+      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/open-source/</guid>
       <description></description>
     </item>
     
@@ -93,20 +93,20 @@
     </item>
     
     <item>
-      <title>GSoC</title>
-      <link>http://asetalias.in/blog/tags/gsoc/</link>
-      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/tags/gsoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Google</title>
       <link>http://asetalias.in/blog/tags/google/</link>
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSoC</title>
+      <link>http://asetalias.in/blog/tags/gsoc/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/gsoc/</guid>
       <description></description>
     </item>
     
@@ -152,6 +152,15 @@
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>communities</title>
+      <link>http://asetalias.in/blog/tags/communities/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/communities/</guid>
       <description></description>
     </item>
     
@@ -215,15 +224,6 @@
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>communities</title>
-      <link>http://asetalias.in/blog/tags/communities/</link>
-      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/tags/communities/</guid>
       <description></description>
     </item>
     

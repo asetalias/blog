@@ -84,15 +84,6 @@
     </item>
     
     <item>
-      <title>Technology</title>
-      <link>http://asetalias.in/blog/categories/technology/</link>
-      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/categories/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>niche</title>
       <link>http://asetalias.in/blog/categories/niche/</link>
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
@@ -102,11 +93,11 @@
     </item>
     
     <item>
-      <title>Write</title>
-      <link>http://asetalias.in/blog/categories/write/</link>
-      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      <title>Technology</title>
+      <link>http://asetalias.in/blog/categories/technology/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://asetalias.in/blog/categories/write/</guid>
+      <guid>http://asetalias.in/blog/categories/technology/</guid>
       <description></description>
     </item>
     
@@ -134,6 +125,15 @@
       <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/categories/this/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Write</title>
+      <link>http://asetalias.in/blog/categories/write/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/write/</guid>
       <description></description>
     </item>
     

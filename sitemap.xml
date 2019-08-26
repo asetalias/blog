@@ -5,7 +5,6 @@
   <url>
     <loc>http://asetalias.in/blog/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -16,67 +15,56 @@
   <url>
     <loc>http://asetalias.in/blog/categories/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/dm/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/debian/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/categories/maintainer/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/open-source/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/categories/packaging/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/post/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/debian/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/dm/</loc>
+    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/maintainer/</loc>
+    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/maintainer/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/open-source/</loc>
+    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/packaging/</loc>
+    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/packaging/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/post/</loc>
+    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/</loc>
+    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -87,49 +75,41 @@
   <url>
     <loc>http://asetalias.in/blog/tags/ama/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/amity/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/community/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/foss/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/gsoc/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/google/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/gsoc/</loc>
+    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/new-horizons/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/university/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -140,25 +120,21 @@
   <url>
     <loc>http://asetalias.in/blog/categories/android/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/customization/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/smartphone/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/alias/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -169,25 +145,26 @@
   <url>
     <loc>http://asetalias.in/blog/categories/beginner/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/coding/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/communities/</loc>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/communitites/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/community/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -198,7 +175,6 @@
   <url>
     <loc>http://asetalias.in/blog/tags/data-science/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -209,55 +185,51 @@
   <url>
     <loc>http://asetalias.in/blog/tags/deep-learning/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/experience/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/experiences/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/introduction/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/machine-learning/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/python/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/categories/technology/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/communities/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/niche/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/python/</loc>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/technology/</loc>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/better-categories/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/how/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -266,57 +238,38 @@
   </url>
   
   <url>
-    <loc>http://asetalias.in/blog/categories/write/</loc>
-    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/categories/better-categories/</loc>
-    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/how/</loc>
-    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://asetalias.in/blog/tags/is/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/looks-like/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/tags/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/than/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/this/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/tags/this/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/write/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
