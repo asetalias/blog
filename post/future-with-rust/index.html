@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+	<head>
+		<title>The Future is Rust(y)? &middot; ALiAS Writes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/blog/assets/css/main.css' />
+		
+		<noscript><link rel="stylesheet" href='/blog/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<style>
+img.responsive {
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+}
+</style>
+<header id="header">
+    <a href='/blog/' class="logo"><img src="/blog/images/logo.png" alt="ALiAS Blog" class ="responsive" width="450px" height="180px"></a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='/blog/'>ALiAS Writes</a></li>
+        
+    </ul>
+    
+    <ul class="icons">
+        
+        <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        
+        
+        <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        
+        
+        <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">June 14, 2019</span>
+                                
+                                <h1>The Future is Rust(y)?</h1>
+                                <p>My quick take on how I see Rust as the new leader of this ever changing programming world</p>
+                            </header>
+                            
+                            <div class="image main"><img src="https://cdn.dribbble.com/users/241205/screenshots/4977779/drib_00_webasm_tank.png" alt="" /></div>
+                            
+														<p>
+                            
+														<b>Categories:</b>
+                            
+													  <a href = "http://asetalias.in/blog/categories/code-philosophy/">code-philosophy</a>
+														
+														
+														<br>
+														
+														<b>Tags:</b>
+														
+													  <a href = "http://asetalias.in/blog/tags/rust/">rust</a>
+														
+													  <a href = "http://asetalias.in/blog/tags/programming/">programming</a>
+														
+														
+                            </p>
+                            
+
+<p><strong>Rust is the system programming language for the future.</strong> Quite a presumptuous statement, said my confreres. I would be inclined to agree with them but for the experience of the agony of using C.</p>
+
+<p><img src="https://doc.rust-lang.org/nomicon/img/safeandunsafe.svg" alt="" /></p>
+
+<blockquote>
+<p>“Having been tortured by C during my years of wiring security-critical software, I don’t think I exaggerate when I compare programming in it with walking through a minefield.”
+by Ivan Ristic, Founder of SSL Labs</p>
+</blockquote>
+
+<p>I will not add more comments to the above statement as I believe it to be the most accurate description of C language by far. I won&rsquo;t proclaim myself as a C language expert nevertheless I assume all the &lsquo;C citizens&rsquo; here would agree with it.</p>
+
+<h3 id="but-sire-isn-t-c-the-next-step-why-rust-if-we-have-c">But sire isn&rsquo;t C++ the next step? Why Rust if we have C++?</h3>
+
+<p>C++, as described by Linus Torvalds, it&rsquo;s a not-so-good programming language(actually he called it horrible and crappy). Or as stated by Donald Knuth, &ldquo;C++ has a lot of good features, but it has a lot of dirty corners&rdquo;.</p>
+
+<p>Now with the perspective of such awesome people out of the way let me explain why C++ sucks from my view (again I am not an expert).</p>
+
+<ul>
+<li>It feels like an abstract collage of a slew of languages like ALGOL, Ada, Simula, CLU and C (of course).</li>
+<li>It forces OOP ideologies on the programmer in a very ambiguous manner.</li>
+<li>It overly complicated for little gain in ease of use. And the so-called efficient abstractions make it hard to change code down the line.</li>
+</ul>
+
+<p><a href="http://harmful.cat-v.org/software/c++/linus">Read here for Linus Torvalds Comments</a></p>
+
+<p><a href="https://news.ycombinator.com/item?id=11147031">And, here for why C++ sucks</a></p>
+
+<h3 id="so-what-makes-rust-any-better">So what makes Rust any better?</h3>
+
+<ul>
+<li>Rust is a very different language from C++ and probably what can be called the modern man&rsquo;s C.</li>
+<li>Rust is a language that guarantees to deny memory leaks and data races by compile-time checks without a Garbage Collector, using the concept of Ownership &amp; Borrowing.</li>
+<li>Rust also has zero-cost abstraction which allows for almost C-like performance.</li>
+</ul>
+
+<p>Call me a fanboy of Rust but here are some stats for the analytical minds to gnaw at,
+<a href="https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted">StackOverFlow Survey for Most Loved Language:</a> And&hellip; the victor is, you guessed it, Rust.
+While C and C++ score really high on the list of most dreaded languages.
+Also if you check you will find that the stats are quite the same for the few years since Rust 1.0 came out and Rust became a stable language.</p>
+
+<h4 id="but-i-heard-go-is-backed-by-google-and-it-can-also-give-c-like-performance-so-how-come-you-aren-t-selling-go">But I heard Go is backed by Google. And it can also give C-like performance. So how come you aren&rsquo;t selling Go?</h4>
+
+<p>Because Rust has the backing of Mozilla group (the people behind Firefox). And Go is extremely opinionated for it to be viable for System Level Programming (in my view). This means that Go is better used for higher level tasks. Also considering it has a garbage collector attached to its hip.</p>
+
+<p><img src="https://blog.mozilla.org/firefox/files/2017/03/Put-Your-Trust-in-Rust.png" alt="put-your-trust-in-rust" /></p>
+
+<h3 id="so-how-does-rust-provide-memory-safety">So how does Rust provide memory safety?</h3>
+
+<blockquote>
+<p>It&rsquo;s elementary my dear Watson.</p>
+</blockquote>
+
+<p>Rust has compile-time reference counting and &ldquo;Ownership and Borrowing&rdquo;. Which allows it to check the code for possible mistakes, and clear up memory without the need for clunky garbage collectors.
+And yes, it&rsquo;s quite similar to what you refer to as unique_pointer in C++. But the difference lies in the fact that in Rust it&rsquo;s a compile-time check whereas in C++ it&rsquo;s performed at runtime.</p>
+
+<p>This comes from the observation that memory becomes <code>unsafe</code> when we have aliasing(pointer/reference) of data which is then mutated and then very likely leaves us behind with dangling hope&hellip; <em>cough</em> I mean pointer.
+<img src="https://image.slidesharecdn.com/rustoverview-140913055618-phpapp02/95/guaranteeing-memory-safety-in-rust-13-638.jpg?cb=1410587857" alt="guaranteeing-memory-safety-in-rust" /></p>
+
+<p>So now we have some idea how taking away shared mutability and using the Ownership and Borrowing model helps us with memory safety in Rust.</p>
+
+<h3 id="but-i-like-my-language-why-should-i-switch-to-rust">But I like my language. Why should I switch to Rust?</h3>
+
+<p>So at this point, I am sure you think that Rust is just the same old candy in a new wrapper. But that&rsquo;s pretty ill-advised, Rust has a bunch of amazing features that make it worth the switch.
+One such thing is the lovely Web Assembly. Which has become the way to go for the performance intensive frontend web tasks. And Rust has the best integration possible with the format which makes it the clear choice for the performance hungry web developers.</p>
+
+<p>So is that all? Not at all, Rust is a rather fascinating language, and I will surely be covering it in much greater detail in the coming months. Ciao!</p>
+
+<h4 id="find-me-at-swarnimarun-on-twitter-https-twitter-com-swarnimarun-or-github-https-github-com-swarnimarun-or-my-blog-at-swarnimarun-github-io-https-swarnimarun-github-io">Find me at @swarnimarun on <a href="https://twitter.com/swarnimarun">Twitter</a> or <a href="https://github.com/swarnimarun">Github</a>. Or my blog at <a href="https://swarnimarun.github.io">swarnimarun.github.io</a></h4>
+
+<p>PS: Hopefully the blog will be a little more lively when you all read it. Also I will add a rough log of my GSoC experience as a first year :P</p>
+
+														<p> <b>Author:</b> Swarnim Arun</p>
+
+                            
+
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    <section class="split contact">
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              
+              <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              
+              
+              <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              
+              
+              <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              
+              
+              <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+              
+              
+              <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+              
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; ALiAS Writes</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/blog/assets/js/jquery.min.js'></script>
+<script src='/blog/assets/js/jquery.scrollex.min.js'></script>
+<script src='/blog/assets/js/jquery.scrolly.min.js'></script>
+<script src='/blog/assets/js/skel.min.js'></script>
+<script src='/blog/assets/js/util.js'></script>
+<script src='/blog/assets/js/main.js'></script>
+
+
+	</body>
+</html>

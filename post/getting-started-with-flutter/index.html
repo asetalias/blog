@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+	<head>
+		<title>Getting Started With Flutter &middot; ALiAS Writes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='/blog/assets/css/main.css' />
+		
+		<noscript><link rel="stylesheet" href='/blog/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<style>
+img.responsive {
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+}
+</style>
+<header id="header">
+    <a href='/blog/' class="logo"><img src="/blog/images/logo.png" alt="ALiAS Blog" class ="responsive" width="450px" height="180px"></a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='/blog/'>ALiAS Writes</a></li>
+        
+    </ul>
+    
+    <ul class="icons">
+        
+        <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        
+        
+        <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        
+        
+        <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">June 5, 2019</span>
+                                
+                                <h1>Getting Started With Flutter</h1>
+                                <p>Blog on how to setup Flutter from scratch.</p>
+                            </header>
+                            
+                            <div class="image main"><img src="/blog/images/flutter.jpg" alt="" /></div>
+                            
+														<p>
+                            
+														<b>Categories:</b>
+                            
+													  <a href = "http://asetalias.in/blog/categories/setup-&amp;-installation/">Setup-&amp;-Installation</a>
+														
+														
+														<br>
+														
+														<b>Tags:</b>
+														
+													  <a href = "http://asetalias.in/blog/tags/flutter/">Flutter</a>
+														
+													  <a href = "http://asetalias.in/blog/tags/app-dev/">App-Dev</a>
+														
+													  <a href = "http://asetalias.in/blog/tags/android/">Android</a>
+														
+														
+                            </p>
+                            
+
+<p><a href="https://flutter.dev/"><strong>Flutter</strong></a> is Google’s portable UI toolkit for building beautiful, natively-compiled applications for mobile, web, and desktop from a single codebase.</p>
+
+<h2 id="more-on-flutter">More on Flutter&hellip;</h2>
+
+<p>According to me, Flutter has a very bright future ahead as Google is using Flutter for the development of their own apps. It has very expressive and Flexible UI and it is famous for its Native Performance. The main challenge is that cross-platform development can be problematic. In recent years we have seen the emergence of various mobile frameworks like <strong>React Native</strong> and <strong>AngularJS</strong> that help make it easier for the developers. But Google is like -:</p>
+
+<p><img src="/blog/images/Challenge.gif#center" alt="GIF" /></p>
+
+<p>Initially, flutter might look like a mix-up of various Google technologies and concepts however, this results in a powerful mobile framework. It&rsquo;s based on <a href="https://dart.dev/guides">Dart</a>, Google&rsquo;s in-house programming language, which makes Flutter even more special because it gives flutter access to the <a href="https://skia.org/">Skia graphics Library</a> which is what Chrome uses.</p>
+
+<p>I will be sharing the steps to install and setup Flutter in this blog. Let&rsquo;s get rolling!!</p>
+
+<h2 id="download-the-flutter-sdk">Download the Flutter SDK</h2>
+
+<p><strong><em>For Window users -:</em></strong></p>
+
+<ol>
+<li><p>You can download the SDK from <a href="https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_v0.5.1-beta.zip">here</a></p></li>
+
+<li><p>Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK <code>(eg. C:\src\flutter;</code> do not install Flutter in a directory like <code>C:\Program Files\ that requires elevated privileges)</code>.</p></li>
+
+<li><p>Look for the file  <code>flutter_console.bat</code> inside the <code>flutter</code> directory. Start it by double-clicking.</p></li>
+</ol>
+
+<p><strong><em>For Mac users -:</em></strong></p>
+
+<ol>
+<li><p>For Mac users, You can download the SDK from <a href="https://storage.googleapis.com/flutter_infra/releases/beta/macos/flutter_macos_v0.5.1-beta.zip">here</a></p></li>
+
+<li><p>Extract the file in the desired location, for example:</p></li>
+</ol>
+
+<p><img src="/blog/images/MAC-os.png#center" alt="Img" /></p>
+
+<ol>
+<li>After downloading the flutter SDK from one of the above links. Extract the download into a suitable folder and then add <code>bin</code> folder location to your path.</li>
+</ol>
+
+<p><strong><em>For Linux Users-:</em></strong></p>
+
+<ol>
+<li><p>For Linux users, the tar file can be downloaded from <a href="https://storage.googleapis.com/flutter_infra/releases/beta/linux/flutter_linux_v0.5.1-beta.tar.xz">here</a></p></li>
+
+<li><p>Extract the file in the desired location, for example:</p></li>
+</ol>
+
+<p><img src="/blog/images/linux.png#center" alt="File" /></p>
+
+<ol>
+<li>After downloading the flutter SDK from one of the above links. Extract the download into a suitable folder and then add <code>bin</code> folder location to your path.</li>
+</ol>
+
+<p><strong><em>Flutter Doctor</em></strong></p>
+
+<p>After completing the process of downloading and adding the <code>bin</code> folder to the path, you can check the status of flutter by using the command</p>
+
+<p><code>flutter doctor</code></p>
+
+<p>The output would be like:</p>
+
+<p><img src="/blog/images/output.png#center" alt="output2" /></p>
+
+<p>I have the android studio and an ide (VS code&ndash;my preference) pre-installed.</p>
+
+<p>You can install and download <a href="https://developer.android.com/studio/"><strong>Android Studio</strong></a>.</p>
+
+<h3 id="setting-up-your-mobile">Setting up your Mobile</h3>
+
+<p>Connect your device to the pc and use the following command to verify that flutter recognizes your device:</p>
+
+<p><code>flutter devices</code></p>
+
+<p>The output would be something like this:</p>
+
+<p><img src="/blog/images/flutter_devices.png#center" alt="output" /></p>
+
+<h3 id="final-steps">Final Steps&hellip;</h3>
+
+<p>I hope you have done each and every step Perfectly. If so, <strong>VOILAA!!</strong> you can start your first project now.</p>
+
+<ul>
+<li>Open Android studio and select <strong>File &gt; New Flutter Project</strong></li>
+</ul>
+
+<p><img src="/blog/images/studio.png#center" alt="New_project" /></p>
+
+<ul>
+<li><p>Select <em>Flutter Application</em> and click Next.</p></li>
+
+<li><p>Enter your Project details and install Flutter SDK if you have not installed it.</p></li>
+
+<li><p>Setup your domain and click <strong>Finish</strong></p></li>
+</ul>
+
+<p><img src="/blog/images/studio2.png#center" alt="Studio" /></p>
+
+<p>Congratss!!! You can now start developing your app in Flutter now. I will be talking about <strong>Getting started with Dart</strong> in my next blog! Till then Bye!!!</p>
+
+<p>Hope it has helped you. Thanks for bearing till the end!!</p>
+
+<p><img src="/blog/images/Thankyou.gif#center" alt="Thankyou" /></p>
+
+<p>Want to connect?
+ <a href="https://github.com/Kaushl2208">Github</a> | <a href="https://www.linkedin.com/in/kaushlendra-pratap-a523b9170/">LinkedIn</a> | <a href="https://twitter.com/Kaushl1998">Twitter</a> | <a href="https://www.facebook.com/kaushlendra.pratap.52">Facebook</a></p>
+
+														<p> <b>Author:</b> Kaushlendra Pratap</p>
+
+                            
+
+                            
+                            
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    <section class="split contact">
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              
+              <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              
+              
+              <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              
+              
+              <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              
+              
+              <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+              
+              
+              <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+              
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; ALiAS Writes</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+<script src='/blog/assets/js/jquery.min.js'></script>
+<script src='/blog/assets/js/jquery.scrollex.min.js'></script>
+<script src='/blog/assets/js/jquery.scrolly.min.js'></script>
+<script src='/blog/assets/js/skel.min.js'></script>
+<script src='/blog/assets/js/util.js'></script>
+<script src='/blog/assets/js/main.js'></script>
+
+
+	</body>
+</html>

@@ -6,10 +6,37 @@
     <description>Recent content in Categories on ALiAS Writes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2019 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://asetalias.in/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alumni-Journals</title>
+      <link>http://asetalias.in/blog/categories/alumni-journals/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/alumni-journals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code-philosophy</title>
+      <link>http://asetalias.in/blog/categories/code-philosophy/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/code-philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup-&amp;-Installation</title>
+      <link>http://asetalias.in/blog/categories/setup-installation/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/setup-installation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Debian</title>

@@ -3,17 +3,102 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://asetalias.in/blog/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
+    <loc>http://asetalias.in/blog/tags/alias/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://asetalias.in/blog/post/build-commit-dput/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
+    <loc>http://asetalias.in/blog/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/alumni/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/alumni-journals/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://asetalias.in/blog/categories/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/experiences/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/foss/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/post/animesh-alias-journey/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/post/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/code-philosophy/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/programming/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/rust/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/post/future-with-rust/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/android/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/app-dev/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/tags/flutter/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/post/getting-started-with-flutter/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/categories/setup-installation/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://asetalias.in/blog/post/build-commit-dput/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
   </url>
   
@@ -58,16 +143,6 @@
   </url>
   
   <url>
-    <loc>http://asetalias.in/blog/post/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://asetalias.in/blog/post/aliasama/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
   </url>
@@ -84,11 +159,6 @@
   
   <url>
     <loc>http://asetalias.in/blog/tags/community/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/foss/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -130,11 +200,6 @@
   <url>
     <loc>http://asetalias.in/blog/tags/smartphone/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://asetalias.in/blog/tags/alias/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -258,12 +323,12 @@
   </url>
   
   <url>
-    <loc>http://asetalias.in/blog/categories/this/</loc>
+    <loc>http://asetalias.in/blog/tags/this/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://asetalias.in/blog/tags/this/</loc>
+    <loc>http://asetalias.in/blog/categories/this/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
   </url>
   

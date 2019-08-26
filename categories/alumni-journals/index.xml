@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FOSS on ALiAS Writes</title>
-    <link>http://asetalias.in/blog/tags/foss/</link>
-    <description>Recent content in FOSS on ALiAS Writes</description>
+    <title>Alumni-Journals on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/categories/alumni-journals/</link>
+    <description>Recent content in Alumni-Journals on ALiAS Writes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://asetalias.in/blog/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://asetalias.in/blog/categories/alumni-journals/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>http://asetalias.in/blog/post/animesh-alias-journey/</guid>
       <description>Four years of college life in Amity, during which I went through a lot of ups and downs, nailed it at sometimes while screwed it at some (yeah college life plays both ways). Being extremely passionate about computers, I always looked for learning opportunities in this field outside of the curriculum. But neither the technical clubs nor events could fulfill the quest, as they meant nothing more than ways to get some certificates or to bunk classes.</description>
-    </item>
-    
-    <item>
-      <title>ALiAS does it again: Report on our GSoC AMA program</title>
-      <link>http://asetalias.in/blog/post/aliasama/</link>
-      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/post/aliasama/</guid>
-      <description>ALiAS is the largest open-source community at Amity University and as one of the founding member of our small 500+ active member community nothing makes me happier than writing about it and looking back on our accomplishments, failures and new initiatives.
-ALiAS started out back in 2010, has now come a long way. After kickstarting it back in 2016, we have climbed several rungs in the ladder of success and with the support of our members, we will continue to do.</description>
     </item>
     
   </channel>

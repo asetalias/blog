@@ -6,10 +6,19 @@
     <description>Recent content in ALiAS on ALiAS Writes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://asetalias.in/blog/tags/alias/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My journey with ALiAS : From a commit to the community</title>
+      <link>http://asetalias.in/blog/post/animesh-alias-journey/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/animesh-alias-journey/</guid>
+      <description>Four years of college life in Amity, during which I went through a lot of ups and downs, nailed it at sometimes while screwed it at some (yeah college life plays both ways). Being extremely passionate about computers, I always looked for learning opportunities in this field outside of the curriculum. But neither the technical clubs nor events could fulfill the quest, as they meant nothing more than ways to get some certificates or to bunk classes.</description>
+    </item>
     
     <item>
       <title>ALiAS : My first open-source community</title>

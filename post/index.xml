@@ -6,10 +6,39 @@
     <description>Recent content in Posts on ALiAS Writes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2019 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://asetalias.in/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My journey with ALiAS : From a commit to the community</title>
+      <link>http://asetalias.in/blog/post/animesh-alias-journey/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/animesh-alias-journey/</guid>
+      <description>Four years of college life in Amity, during which I went through a lot of ups and downs, nailed it at sometimes while screwed it at some (yeah college life plays both ways). Being extremely passionate about computers, I always looked for learning opportunities in this field outside of the curriculum. But neither the technical clubs nor events could fulfill the quest, as they meant nothing more than ways to get some certificates or to bunk classes.</description>
+    </item>
+    
+    <item>
+      <title>The Future is Rust(y)?</title>
+      <link>http://asetalias.in/blog/post/future-with-rust/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/future-with-rust/</guid>
+      <description>Rust is the system programming language for the future. Quite a presumptuous statement, said my confreres. I would be inclined to agree with them but for the experience of the agony of using C.
+ “Having been tortured by C during my years of wiring security-critical software, I don’t think I exaggerate when I compare programming in it with walking through a minefield.” by Ivan Ristic, Founder of SSL Labs</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Flutter</title>
+      <link>http://asetalias.in/blog/post/getting-started-with-flutter/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/getting-started-with-flutter/</guid>
+      <description>Flutter is Google’s portable UI toolkit for building beautiful, natively-compiled applications for mobile, web, and desktop from a single codebase.
+More on Flutter&amp;hellip; According to me, Flutter has a very bright future ahead as Google is using Flutter for the development of their own apps. It has very expressive and Flexible UI and it is famous for its Native Performance. The main challenge is that cross-platform development can be problematic.</description>
+    </item>
     
     <item>
       <title>Becoming a Debian Maintainer in 90 days!</title>
