@@ -15,11 +15,13 @@ script:
     - hugo
 
 after_success: |
-    if [ -n "$GITHUB_TOKEN" ]; then
-    mv docs/* .
-    git rm -rf .
-    rm -rf docs hugo_* 
-    git add -f --ignore-errors --all
-    git -c user.name='travis_ci' -c user.email='travis_ci' commit -m "ci-commit"
-    git push -f -q https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG gh-pages
+    if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+        if [ -n "$GITHUB_TOKEN" ]; then
+        mv docs/* .
+        git rm -rf .
+        rm -rf docs hugo_* 
+        git add -f --ignore-errors --all
+        git -c user.name='travis_ci' -c user.email='travis_ci' commit -m "ci-commit"
+        git push -f -q https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG gh-pages
+        fi
     fi

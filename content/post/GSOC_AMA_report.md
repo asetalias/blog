@@ -40,7 +40,7 @@ Henceforth, we had **15 mentors**, for **15 days** straight. For a streak of web
 
 **AMA (Ask Me Anything) sessions** from the very beginning, have been completely **open** with people coming from together to help, mentor and participate in the program resulting in a nine times the selection this year compared to last 3 years! **This was only possible because of our beliefs, teamwork and true hard work.**
 
-> Be the change you want to see in the world 
+> Be the change you want to see in the world
 > or at least try ...
 
 
@@ -103,6 +103,13 @@ The joint efforts of various **students**, **mentors**, **leaders**, **trainers*
 Every bit of this, couldn't be completed or even imagined without the help and direct input from the ALiAS Volunteer team who works hard to lead new initiatives, work with us on so many challenges. I would like to take some time to especially mention the people who constantly worked behind the AMA program, making it a success.
 
 <blockquote class="twitter-tweet" data-lang="en" align=center><p lang="en" dir="ltr">A special thanks to <a href="https://twitter.com/vipulgupta2048?ref_src=twsrc%5Etfw">@vipulgupta2048</a> for mentoring members and conducting the AMA Sessions on GSoC . <br>A heartful thank you to the ALiAS Volunteer team especially Raghav, Siddhant, Akshat, Shivam, Sahil and Kaushlendra and every other soul who helped along the way. <a href="https://t.co/Ich2qlRNHe">pic.twitter.com/Ich2qlRNHe</a></p>&mdash; ALiAS (@AsetALiAS) <a href="https://twitter.com/AsetALiAS/status/1125603066642780160?ref_src=twsrc%5Etfw">May 7, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## [Update] ALiAS hits its mark in Alibaba Summer of Code 2019
+
+We are so happy to announce that [Sahil Jha](https://twitter.com/sjha2048), a sophomore from the Computer Science Dept. of Amity University, and a long-standing member of our community was just accepted into [Alibaba Summer of code](https://developer.aliyun.com/summerofcode2019). Join us into congratulating him.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Elated to share with everyone that i have been selected for ali baba summer of code 2019, Great challenge ahead, intrigued to learn more through this amazing experience <br>Thanks Alibaba for giving me this superb opportunity!!<a href="https://twitter.com/AlibabaGroup?ref_src=twsrc%5Etfw">@AlibabaGroup</a> <a href="https://twitter.com/AsetALiAS?ref_src=twsrc%5Etfw">@AsetALiAS</a> <a href="https://t.co/PE2c29JcEZ">pic.twitter.com/PE2c29JcEZ</a></p>&mdash; sahil jha (@sjha2048) <a href="https://twitter.com/sjha2048/status/1142330209699393536?ref_src=twsrc%5Etfw">June 22, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Credits:
