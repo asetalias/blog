@@ -63,9 +63,41 @@ I loved [Jason Lengstorf](https://twitter.com/jlengstorf)'s talk as he asks the 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/5sec?src=hash&amp;ref_src=twsrc%5Etfw">#5sec</a> summary<br>How make <a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> more open? Not just by saying, but taking action.<br><br>- Invest in onboarding for new contributors.<br>- Fix your representation, by putting money where your mouth is.<br>- Show gratitude in meaningful ways<br>- Build trust &amp; safety <a href="https://t.co/RFtFjFfOqr">pic.twitter.com/RFtFjFfOqr</a></p>&mdash; Vipul Gupta 🐣 (@vipulgupta2048) <a href="https://twitter.com/vipulgupta2048/status/1177812220186521600?ref_src=twsrc%5Etfw">September 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I had the most insightful discussions with folks from the community, including this one talk from [Tanvi Bhakta](https://twitter.com/tanvibhakta_) on buildiing healthier, more inclusive workplace culture. She also is working on an awesome project, that you all should check and support. it's called [Desi Deck of Dames](https://desideckofdames.com/). 
+I had the most insightful discussions with folks from the community, including this one talk from [Tanvi Bhakta](https://twitter.com/tanvibhakta_) on buildiing healthier, more inclusive workplace culture. She also is working on an awesome project, that you all should check out and support. it's called [Desi Deck of Dames](https://desideckofdames.com/) and it's awesome!!
 
 <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Finally met the amazing <a href="https://twitter.com/tanvibhakta_?ref_src=twsrc%5Etfw">@tanvibhakta_</a> from <a href="https://twitter.com/obvious_in?ref_src=twsrc%5Etfw">@obvious_in</a>, speaking about how to build communities for everyone and implement simple steps to improve workplace health at your company. <a href="https://t.co/PGax5YZfNZ">pic.twitter.com/PGax5YZfNZ</a></p>&mdash; Vipul Gupta 🐣 (@vipulgupta2048) <a href="https://twitter.com/vipulgupta2048/status/1177494903758049280?ref_src=twsrc%5Etfw">September 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Making connections is all about why we attend conferences, and I finally met these two in the halls. One is the organiser of Hackerspace Mumbai, an incredible community working on the forefront of tech and the other an extremely talented, newly appointed DevRel for Dgraph Labs! 
+
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Forging new <a href="https://twitter.com/hashtag/connections?src=hash&amp;ref_src=twsrc%5Etfw">#connections</a> with the community at <a href="https://twitter.com/react_india?ref_src=twsrc%5Etfw">@react_india</a>, with the sustainable <a href="https://twitter.com/hackmum?ref_src=twsrc%5Etfw">@hackmum</a> ran by <a href="https://twitter.com/TalkOrTweets?ref_src=twsrc%5Etfw">@TalkOrTweets</a> and <a href="https://twitter.com/hackintoshrao?ref_src=twsrc%5Etfw">@hackintoshrao</a> who is <a href="https://twitter.com/dgraphlabs?ref_src=twsrc%5Etfw">@dgraphlabs</a>&#39;s newest <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a><br><br>Great meeting up with both of you. <a href="https://t.co/Om3eBxtYxk">https://t.co/Om3eBxtYxk</a> <a href="https://t.co/NmnqnS6UTR">pic.twitter.com/NmnqnS6UTR</a></p>&mdash; Vipul Gupta 🐣 (@vipulgupta2048) <a href="https://twitter.com/vipulgupta2048/status/1177663175174410241?ref_src=twsrc%5Etfw">September 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
