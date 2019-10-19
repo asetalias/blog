@@ -72,34 +72,3 @@ Making connections is all about why we attend conferences, and I finally met the
 <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Forging new <a href="https://twitter.com/hashtag/connections?src=hash&amp;ref_src=twsrc%5Etfw">#connections</a> with the community at <a href="https://twitter.com/react_india?ref_src=twsrc%5Etfw">@react_india</a>, with the sustainable <a href="https://twitter.com/hackmum?ref_src=twsrc%5Etfw">@hackmum</a> ran by <a href="https://twitter.com/TalkOrTweets?ref_src=twsrc%5Etfw">@TalkOrTweets</a> and <a href="https://twitter.com/hackintoshrao?ref_src=twsrc%5Etfw">@hackintoshrao</a> who is <a href="https://twitter.com/dgraphlabs?ref_src=twsrc%5Etfw">@dgraphlabs</a>&#39;s newest <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a><br><br>Great meeting up with both of you. <a href="https://t.co/Om3eBxtYxk">https://t.co/Om3eBxtYxk</a> <a href="https://t.co/NmnqnS6UTR">pic.twitter.com/NmnqnS6UTR</a></p>&mdash; Vipul Gupta 🐣 (@vipulgupta2048) <a href="https://twitter.com/vipulgupta2048/status/1177663175174410241?ref_src=twsrc%5Etfw">September 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
