@@ -53,7 +53,7 @@ Moving on, I took a break from GraphQL and attended talks by [Ives van Hoorne](h
 
 ## Community is where the heart is
 
-Open-Source was a general theme behind the conference, where people talked from how we can build more inclusive communities to releasing new frameworks for blogging platforms to conflict resolution to this amazing quote by Carolyn in her talk about "Intitutive tooling". 
+Open-Source was a general theme behind the conference, where people talked from how we can build more inclusive communities to releasing new frameworks for blogging platforms to conflict resolution to this amazing quote by Carolyn in her talk about "Intuitive tooling". 
 
 > "We mistake familiarity for simplicity" - Carolyn Stransky
 
