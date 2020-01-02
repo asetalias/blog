@@ -16,11 +16,13 @@ tags = ['GSoC', 'Community', 'Google', 'AMA', 'FOSS', 'Amity', 'University']
 
 All accepted students from ALiAS have successfully completed their projects for GSoC 2019. Details are as follows. 
 1. Ayush Bhardwaj, [GSoC Archive link](https://summerofcode.withgoogle.com/archive/2019/projects/6052136226390016/). Reach him @ [LinkedIn](https://www.linkedin.com/in/hastagab/), [Twitter](https://twitter.com/HastagAB), Email: classicayush@gmail.com
-2. Nikhil Maan, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/4653063850164224/). Reach him @ [LinkedIn](https://www.linkedin.com/in/sc0rpi0n101/), Twitter, GitHub: @Sc0rpi0n101
+2. Nikhil Maan, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/4653063850164224/). Reach him @ [LinkedIn](https://www.linkedin.com/in/sc0rpi0n101/), Twitter, GitHub: @Sc0rpi0n101, [Blog](https://sc0rpi0n101.github.io/)
 3. Sahil, [Alibaba Project](https://github.com/alibaba/arthas), Reach him @ [LinkedIn](https://www.linkedin.com/in/sjha2048) Github: @sjha2048, Email: sjha200000@gmail.com
 4. Ankit Kumar Dwivedi, [GSoC archive](https://summerofcode.withgoogle.com/archive/2019/projects/6474348691456000/), [LinkedIn](https://www.linkedin.com/in/ankit-dwivedi), GitHub @ankit-kumar-dwivedi, Email: dwivedi.ankit21@gmail.com  
 5. Mrinal Wahal, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/6619076489641984/). [Linkedin](https://linkedin.com/in/wahal), [Website](https://mrinalwahal.com), [mrinalwahal@gmail.com](mailto:mrinalwahal@gmail.com)
-6. Vipul Gupta, [link](https://github.com/vipulgupta2048/mygsoc), [blog](https://mixstersite.wordpress.com/gsoc/), [@vipulgupta2048](https://lmgtfy.com/?q=vipulgupta2048+&s=g) 
+6. Utkarsh Gupta, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/6014695855620096/), Reach him @ LinkedIn, Twitter: @utkarsh2102, [Website](http://utkarsh2102.tk), Email: utkarsh@debian.org
+7. Swarnim Arun, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/6065782478340096/), Reach him @ Github, Twitter: @swarnimarun, [Website](https://swarnimarun.github.io), Email: swarnimarun11@gmail.com
+8. Vipul Gupta, [link](https://github.com/vipulgupta2048/mygsoc), [blog](https://mixstersite.wordpress.com/gsoc/), [@vipulgupta2048](https://lmgtfy.com/?q=vipulgupta2048+&s=g) 
 
 Well, that's that. We will be back for GSoC 2020. Back to the blog now. 
 
