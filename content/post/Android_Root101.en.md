@@ -2,7 +2,7 @@
 title = "A Guide to Flashing Custom ROMs [Android]"
 slug = "flash_custom_rom"
 date = "2018-02-25T00:00:00"
-image= "images/rohanvtk.jpg"
+image= "https://github.com/rohanvtk/images-for-everybody/blob/master/andro_root%20(1).jpg"
 description = "Sick and tired of the bloatware on your current OEM ROM. Head over and learn how to flash custom ROMs."
 author = "RohanVTK"
 tags = ['Smartphone', 'Customization']
@@ -46,7 +46,7 @@ Place this file inside the same folder created in the previous step.
 
 Open CMD in that directory.
 
-![Easy Trick to open CMD](blog/images/rohanvtk_three.jpg#center)
+![Easy Trick to open CMD](https://github.com/rohanvtk/images-for-everybody/blob/master/andro_root%20(3).jpg#center)
 
 Open up CMD already pointing to that folder by typing in 'cmd' in the address bar i.e. where 'Quick access' is written in this image.
 
@@ -87,7 +87,7 @@ Moving on.
 
 Now, the TWRP should open up.
 
-![TWRP](blog/images/rohanvtk_two.jpg#center)
+![TWRP](https://github.com/rohanvtk/images-for-everybody/blob/master/andro_root%20(4).jpg#center)
 
 That's what TWRP recovery looks like.
 
@@ -101,7 +101,7 @@ _After completing the process make sure you clear the Dalvik Cache and Cache mem
 
 _Reboot the Device and wait, as the initial boot takes time._
 
-![customromdone](blog/images/rohanvtk.one.jpg)
+![customromdone](https://github.com/rohanvtk/images-for-everybody/blob/master/andro_root%20(2).jpg#center)
 ______
 
 **Au Revoir**
