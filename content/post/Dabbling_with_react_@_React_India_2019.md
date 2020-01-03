@@ -1,7 +1,7 @@
 +++
 title = "Dabbling with React @ React India 2019: A Tweet story"
 slug = "reactindia2019-vipulgupta2048"
-image = "images/react1.png"
+image = "https://user-images.githubusercontent.com/19930870/71670852-4dfd9f00-2d97-11ea-8731-12cbe620ca7b.png"
 date = "2019-10-07T10:10:00"
 description = "My experience of India's first React conf, React India 2019"
 disableComments = false
