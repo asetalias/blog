@@ -24,7 +24,7 @@ All accepted students from ALiAS have successfully completed their projects for 
 7. Swarnim Arun, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/6065782478340096/), Reach him @ Github, Twitter: @swarnimarun, [Website](https://swarnimarun.github.io), Email: swarnimarun11@gmail.com
 8. Vipul Gupta, [link](https://github.com/vipulgupta2048/mygsoc), [blog](https://mixstersite.wordpress.com/gsoc/), [@vipulgupta2048](https://lmgtfy.com/?q=vipulgupta2048+&s=g) 
 
-Well, that's that. We will be back for GSoC 2020. Back to the blog now. 
+Well, that's that. If you like to join us for GSoC AMA Program 2020, [join here on Whatsapp](https://chat.whatsapp.com/BlshkYolIg40b0pYov2UJo). Back to the blog now. 
 
 **ALiAS** started out back in **2010**, has now come a long way. After kickstarting it back in 2016, we have climbed several rungs in the ladder of success and with the support of our members, we will continue to do. The GSoC **Ask Me Anything** initiative is proof of the same. Here's the results first, before we dive deeper into our brand new initiative.
 
