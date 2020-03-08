@@ -1,4 +1,4 @@
 [submodule "themes/hugo-theme-massively"]
 	path = themes/hugo-theme-massively
-	url = https://github.com/curtistimson/hugo-theme-massively.git
+	url = https://github.com/Sc0rpi0n101/hugo-theme-massively.git
 	branch = master
