@@ -39,10 +39,12 @@ This website is currently under construction and all your inputs are highly appr
 1) For hugo installation and usage instructions, refer to [Hugo installation and setup](./INSTALLATION.md).
 2) Fork the repository and clone to your machine by using the command 
 ```
-$ git clone https://github.com/<username>/blog
+$ git clone --recursive https://github.com/<username>/blog.git
 ```
-3) Make the changes locally and push them to your own repository.
-4) Review the changes in your repository and submit a pull request.
+3)  To run a local copy of the website, open the command prompt or your preferred CLI, change the directory to the address of the repository and use the command `hugo server` if you have hugo installed.
+ For instruction on Hugo installation and use, refer to [Hugo installation and setup](./INSTALLATION.md).
+4) Make the changes locally and push them to your own repository.
+5) Review the changes in your repository and submit a pull request.
 
 *Hugo server starts a local server but hugo builds the website. Be careful when using the commands*
 
@@ -54,7 +56,7 @@ The markup used for blog posts is **Markdown**
 
 1) Fork the repository and clone to your machine by using the command 
 ```
-$ git clone https://github.com/<username>/blog
+$ git clone --recursive https://github.com/<username>/blog.git
 ```
 2) Create you work file/blog post in `/content/post`, see existing files as an example.
 2.5) The format needs to be exactly like [the sample post](./content/post/post.en.) for correct representation. 
