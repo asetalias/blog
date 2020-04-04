@@ -9,7 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2 # move to latest
+        with:
+          submodules: true  # Fetch theme
 
       - name: Get Hugo
         uses: peaceiris/actions-hugo@v2
