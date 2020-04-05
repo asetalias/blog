@@ -9,21 +9,36 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2 # move to latest
+      - uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch theme
+          submodules: true
 
-      - name: Get Hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build Site
+      - name: Build
         run: hugo --minify
 
+      - name: Prepare tag
+        id: prepare_tag
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          TAG_NAME="${GITHUB_REF##refs/tags/}"
+          echo "::set-output name=tag_name::${TAG_NAME}"
+          echo "::set-output name=deploy_tag_name::deploy-${TAG_NAME}"
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3 # easy way to get static sites working
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # publish_branch: master
           publish_dir: ./public
+          allow_empty_commit: true
+          # keep_files: true
+          # force_orphan: true
+          # commit_message: ${{ github.event.head_commit.message }}
+          # tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
+          # tag_message: 'Deployment ${{ steps.prepare_tag.outputs.tag_name }}'
+          cname: 'blog.asetalias.com'
