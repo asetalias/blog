@@ -41,4 +41,4 @@ jobs:
           # commit_message: ${{ github.event.head_commit.message }}
           # tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
           # tag_message: 'Deployment ${{ steps.prepare_tag.outputs.tag_name }}'
-          cname: 'asetalias.com'
+          cname: 'asetalias.in'
