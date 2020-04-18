@@ -15,6 +15,7 @@ tags = ['GSoC', 'Community', 'Google', 'AMA', 'FOSS', 'Amity', 'University']
 ## Update 2019
 
 All accepted students from ALiAS have successfully completed their projects for GSoC 2019. Details are as follows. 
+
 1. Ayush Bhardwaj, [GSoC Archive link](https://summerofcode.withgoogle.com/archive/2019/projects/6052136226390016/). Reach him @ [LinkedIn](https://www.linkedin.com/in/hastagab/), [Twitter](https://twitter.com/HastagAB), Email: classicayush@gmail.com
 2. Nikhil Maan, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/4653063850164224/). Reach him @ [LinkedIn](https://www.linkedin.com/in/sc0rpi0n101/), Twitter, GitHub: @Sc0rpi0n101, [Blog](https://sc0rpi0n101.github.io/)
 3. Sahil, [Alibaba Project](https://github.com/alibaba/arthas), Reach him @ [LinkedIn](https://www.linkedin.com/in/sjha2048) Github: @sjha2048, Email: sjha200000@gmail.com
@@ -23,6 +24,8 @@ All accepted students from ALiAS have successfully completed their projects for 
 6. Utkarsh Gupta, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/6014695855620096/), Reach him @ LinkedIn, Twitter: @utkarsh2102, [Website](http://utkarsh2102.tk), Email: utkarsh@debian.org
 7. Swarnim Arun, [GSoC Archive](https://summerofcode.withgoogle.com/archive/2019/projects/6065782478340096/), Reach him @ Github, Twitter: @swarnimarun, [Website](https://swarnimarun.github.io), Email: swarnimarun11@gmail.com
 8. Vipul Gupta, [link](https://github.com/vipulgupta2048/mygsoc), [blog](https://mixstersite.wordpress.com/gsoc/), [@vipulgupta2048](https://lmgtfy.com/?q=vipulgupta2048+&s=g) 
+
+![](../../static/images/chart.png)
 
 Well, that's that. If you like to join us for GSoC AMA Program 2020, [join here on Whatsapp](https://chat.whatsapp.com/BlshkYolIg40b0pYov2UJo). Back to the blog now. 
 
