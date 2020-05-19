@@ -28,15 +28,15 @@ Place this file inside the same folder created in the previous step.
 
 * Download a ROM of your choice.
 
-    **_Link to AOSP Extended: https://www.aospextended.com/_**
+    **_Link to AOSP Extended: https://www.aospextended.com_**
 
-    **_Link to Resurrection Remix: https://www.resurrectionremix.com/_**
+    **_Link to Resurrection Remix: https://www.resurrectionremix.com_**
 
-    **_Link to Pixel Experience: https://download.pixelexperience.org/_**
+    **_Link to Pixel Experience: https://download.pixelexperience.org_**
 
 * Download google apps .zip file as well. (Skip this step for Pixel Experience ROM)
 
-    **_Link to OpenGapps: https://opengapps.org/_**
+    **_Link to OpenGapps: https://opengapps.org_**
 
 * Now open up the command prompt on Windows with **_adminitrator priviliges_**.
 
@@ -46,7 +46,7 @@ Place this file inside the same folder created in the previous step.
 
 Open CMD in that directory.
 
-![Easy Trick to open CMD](https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(3).jpg#center)
+{{< figure src="https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(3).jpg" height=140 >}}
 
 Open up CMD already pointing to that folder by typing in 'cmd' in the address bar i.e. where 'Quick access' is written in this image.
 
@@ -87,7 +87,7 @@ Moving on.
 
 Now, the TWRP should open up.
 
-![TWRP](https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(4).jpg#center)
+{{< figure src="https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(4).jpg" height=430 >}}
 
 That's what TWRP recovery looks like.
 
@@ -101,7 +101,7 @@ _After completing the process make sure you clear the Dalvik Cache and Cache mem
 
 _Reboot the Device and wait, as the initial boot takes time._
 
-![customromdone](https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(2).jpg#center)
+{{< figure src="https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(2).jpg" height=430 >}}
 ______
 
 **Au Revoir**
