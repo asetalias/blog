@@ -59,7 +59,8 @@ The markup used for blog posts is **Markdown**
 $ git clone --recursive https://github.com/<username>/blog.git
 ```
 2) Create you work file/blog post in `/content/post`, see existing files as an example.
-2.5) The format needs to be exactly like [the sample post](./content/post/post.en.) for correct representation. 
+
+2.5) The format needs to be exactly like [the sample post](./content/post/post.en.md) for correct representation. 
 
 Same has been given below. Edit and append this to the top of your post when finish writing. 
 
