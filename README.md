@@ -9,12 +9,14 @@ This repository holds the source code and related content of the official blog f
 
 ALiAS is a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.
 
+Please make sure to follow our community [Code of Conduct](https://github.com/asetalias/asetalias.github.io/blob/master/Code_of_Conduct.md) while contributing to the project. 
+
 The website has been created using hugo and the theme used is hugo-massively-theme.
 
 ## Want to help out?
 This website is currently under construction and all your inputs are highly appreciated.
 -   Any writers willing to add your own thoughts to the blog can refer to the [instructions for Writer](https://github.com/asetalias/blog/#instruction-for-writers) section to learn about posting on the blog.
--   Any developers interested in the development of the blog and solving issues can refer to the [Instrucitons for Developers:](https://github.com/asetalias/blog/#instrucitons-for-developers) for help on how to contribute.
+-   Any developers interested in the development of the blog and solving issues can refer to the [Instructions for Developers:](https://github.com/asetalias/blog/#instrucitons-for-developers) for help on how to contribute.
 -   First time Git/Github users can refer to the [First time Contributors](https://github.com/asetalias/blog/#first-time-contributors) section for guides to help start contributing.
 
 -   To be involved in the ongoing discussions please join our [Telegram Group](https://t.me/joinchat/KDFmCRdcpJrASFp5pKVaCA).
@@ -46,7 +48,7 @@ $ git clone --recursive https://github.com/<username>/blog.git
 4) Make the changes locally and push them to your own repository.
 5) Review the changes in your repository and submit a pull request.
 
-*Hugo server starts a local server but hugo builds the website. Be careful when using the commands*
+*`hugo server` starts a local server but `hugo` builds the website. Be careful when using the commands*
 
 * * *
 
@@ -60,23 +62,23 @@ $ git clone --recursive https://github.com/<username>/blog.git
 ```
 2) Create you work file/blog post in `/content/post`, see existing files as an example.
 
-2.5) The format needs to be exactly like [the sample post](./content/post/post.en.md) for correct representation. 
+    2.5. The format needs to be exactly like [the sample post](./content/post/post.en.md) for correct representation. 
 
-Same has been given below. Edit and append this to the top of your post when finish writing. 
+    Same has been given below. Edit and append this to the top of your post when finish writing. 
 
-```
-+++
-title = 'WRITE_A_TITLE_DUH'
-slug = 'give-a-descriptive-slug-like-this-please'
-image = '/images/about.jpg'
-date = "2012-02-06T00:00:00"
-author = 'Creators of ALiAS Writes'
-tags=['this', 'is', 'how', 'tags', 'looks-like']
-categories =['Write', 'better-categries', 'than', 'this']
-description = 'Small oneliners with a tinge of suspense works best'
-disableComments = false
-+++
-```
+    ```
+    +++
+    title = 'WRITE_A_TITLE_DUH'
+    slug = 'give-a-descriptive-slug-like-this-please'
+    image = '/images/about.jpg'
+    date = "2012-02-06T00:00:00"
+    author = 'Creators of ALiAS Writes'
+    tags=['this', 'is', 'how', 'tags', 'looks-like']
+    categories =['Write', 'better-categries', 'than', 'this']
+    description = 'Small oneliners with a tinge of suspense works best'
+    disableComments = false
+    +++
+    ```
  
 3)  To run a local copy of the website, open the command prompt or your preferred CLI, change the directory to the address of the repository and use the command `hugo server` if you have hugo installed.
  For instruction on Hugo installation and use, refer to [Hugo installation and setup](./INSTALLATION.md).
