@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+	<head>
+		<title>Appsmith with ElasticSearch &middot; ALiAS Writes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		
+		
+		<link rel="stylesheet" href="/blog/assets/css/main.min.css">
+		
+		
+		
+		<noscript><link rel="stylesheet" href='/blog/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-preload">
+
+		
+			<div id="wrapper">
+
+                
+<style>
+img.responsive {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+}
+</style>
+<header id="header">
+    <a href='/'  class="logo"><img src="/blog/images/logo.png" alt="ALiAS Blog" width="450px" height="180px" class ="responsive"></a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='/'>ALiAS Writes</a></li>
+        
+    </ul>
+    
+    <ul class="icons">
+        
+        <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        
+        
+        <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        
+        
+        <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        
+        
+        <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        
+        
+        <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">September 14, 2022</span>
+                                
+                                <h1>Appsmith with ElasticSearch</h1>
+                                <p>Blog on how to use ElasticSearch with Appsmith</p>
+                            </header>
+                            
+                            <div class="image main"><img src="/blog/images/appsmith.png" alt="" /></div>
+                            
+														<p>
+                            	
+																<b>Categories:</b>
+                            		
+													  			<a href = "http://asetalias.in/blog/categories/setup-&amp;-installation/">Setup-&amp;-Installation</a>
+																
+															
+															<br>
+															
+																<b>Tags:</b>
+																
+													  			<a href = "http://asetalias.in/blog/tags/appsmith/">Appsmith</a>
+																
+													  			<a href = "http://asetalias.in/blog/tags/elasticsearch/">ElasticSearch</a>
+																
+															
+													  </p>
+                            <hr>
+<p>description: Guide on how to use ElasticSearch as a data source on Appsmith</p>
+<h1 id="how-to-use-elasticsearch-as-a-data-source-on-appsmith">How to use ElasticSearch as a data source on Appsmith</h1>
+<p>This guide assumes you have basic familiarity with <a href="https://www.appsmith.com/">Appsmith</a>. If you don&rsquo;t have much understanding, I would suggest creating an account and trying it out. I assure you that it is straightforward to get acquainted with quickly.</p>
+<h2 id="elasticsearch">Elasticsearch</h2>
+<p>Elasticsearch is a distributed, free and open search and analytics engine for all types of data, including textual, numerical, geospatial, structured, and unstructured. Known for its simple REST APIs, distributed nature, speed, and scalability, Elasticsearch is the central component of the Elastic Stack, a set of free and open tools for data ingestion, enrichment, storage, analysis, and visualization.</p>
+<p>In this guide, you will learn how you can use Elasticseach as a data source for your Appsmith application.</p>
+<h2 id="what-to-build">What to build</h2>
+<p>We are going to use accounts.json that has sample data of bank customers and their account balance. This guide will display all the defaulters (account balance less than 20000) with their account info. We will also make a button which will update the balance of the selected person.</p>
+<h2 id="initial-setup">Initial setup</h2>
+<p>Let&rsquo;s quickly first see how you can integrate Elasticsearch in Appsmith. Just head to Appsmith, and let&rsquo;s say for the scope of this guide, you&rsquo;re building a new application which you want to get data from your Elasticsearch server.</p>
+<p>Click on the <code>New</code> button to create a new application. Then click on <code>Generate from a Data table</code> option. You should be prompted with a screen that would ask you to connect the database of your choice. It should look something like this:</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%20-%201.png" alt="Elastic-1"></p>
+<p>Click on <code>Connect new Datasource</code> and find <code>ElasticSearch</code> from all the available database options.</p>
+<p>Now you will be greeted with a page to fill in the credentials of your ElasticSearch server. You should fill in the host/port login credentials. The unfilled screen for this would look something like this:</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%20-%202.png" alt="Elastic-2"></p>
+<p>If you are hosting Elasticsearch on a local server, consider using ngrok to expose the public address. You can see how to use ngrok and other local APIs with appsmith here: <a href="https://docs.appsmith.com/how-to-guides/how-to-work-with-local-apis-on-appsmith">https://docs.appsmith.com/how-to-guides/how-to-work-with-local-apis-on-appsmith</a></p>
+<p>Once you fill in all the details, you can click Test from the options below to test your connection. It will let you know if Appsmith is successfully able to connect to your database or not.</p>
+<p>If the test is successful, click on &ldquo;Save&rdquo; to save your connection on Appsmith</p>
+<h2 id="querying-the-database">Querying the database</h2>
+<p>So, now that you&rsquo;re done with setting up a connection to your database server, you should be able to see a screen like this:</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic-3.png" alt="Elastic-3"></p>
+<p>You can change the name of Datasource by clicking on it. I will use the How To datasource here.
+From here, let&rsquo;s try writing a query for our application. For our database, I have already added the accouts.json datafile.</p>
+<p>Querying in Appsmith is very simple; click on the New Query button from above and select which kind of query operation you&rsquo;re going to have. For our use case, we&rsquo;re just trying to get data from our database, so I would go ahead and use the default GET method.</p>
+<p>Mention the Path in the next field. For our case we will write
+<code>/bank/_search/?size=50</code>
+This will take a the first 50 lists which satisfy the query. You can include more data by increasing the value of size. The default value is 10</p>
+<p>In the body we will write our query.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  &#34;query&#34;: {
+</span></span><span style="display:flex;"><span>    &#34;range&#34;: {
+</span></span><span style="display:flex;"><span>      &#34;balance&#34;: {
+</span></span><span style="display:flex;"><span>        &#34;lte&#34;: 20000
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It will look something like this</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%20-%204.png" alt="Elastic-4"></p>
+<p>I will name this query as Defaulter.
+Now for your convenience, Appsmith does all the input sanitization and helps you query your database without worrying about any malicious data. In our case, we&rsquo;re just reading from the database, so our query will also be very simple.</p>
+<h2 id="displaying-the-data">Displaying the data</h2>
+<p>Now that we have a query to fetch data from the database. It&rsquo;s time to display the data. Let&rsquo;s start with a simple way to go on to this.</p>
+<p>Data is stored as a JSON format in Elasticsearch and we will use a table to display it.</p>
+<p>Click on the <code>Widgets</code> ribbon and select the <code>Table</code> widget.</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic-5.png" alt="Elastic-5"></p>
+<p>Drag and drop it on the canvas.
+It should like this.</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic-6.png" alt="Elastic-6"></p>
+<p>So let&rsquo;s try displaying our query data in the table. Now click on the settings icon and all you have to do is replace the table data value with your query data. In this case, the identifier of my query is Query1 so I will just put <code>Defaulters.data.hits.hits</code> inside {{}}. Remember Defaulters is the name of the query.</p>
+<p>Now we will hide unwanted columns like _index, _type _score and _soruce.</p>
+<p>After that we will add our own custom columns named
+<code>Firstname, Lastname, Balance, Email</code></p>
+<p>Now we have to fill the data with the required key names from the JSON. 
+For the Firstname column, use this query to add all the values from database <code>{{currentRow._source[&quot;firstname&quot;]}}</code>
+You will see it will automatically fill the column with the data
+Similarly we will fill the data for all the columns. i.e. Just change the value in <code>_source</code> with the required key you want.</p>
+<p>Finally you can see your table looking like this.</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%207.png" alt="Elastic-7"></p>
+<p>You can also use the filter command in the table widget. Let&rsquo;s say you want to find the people who have balance less than 10000 and are in critical red zone. You can simply click the filter tag and fill the fields with the objectve in mind
+For this instance, We can select
+Where -&gt; Balance -&gt; is less than or equal to -&gt; 10000</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%208.png" alt="Elastic-8"></p>
+<p>It&rsquo;s very self explanatory and easy to use. Also remember to change the type of balance coloumn to Number by going into column settings and selecting the type in Column type.</p>
+<h2 id="lets-try-to-make-a-button-and-update-data-on-elasticsearch-using-appsmith">Let&rsquo;s try to make a button and update data on ElasticSearch using Appsmith</h2>
+<p>Now that we know how to read data via ElasticSearch, let&rsquo;s make a function which will ask you to add new value to the selected id&rsquo;s balance column. After that we will excecute a query to update the new balance to our accounts.json data.</p>
+<p>Create a new column next to balance by clickong on the table and selecting the <code>ADD A NEW COLUMN</code> button. I am going to name the column as Balance Update. Click the settings icon on the column name to modify it. In column type, select <code>Button</code> and you will see all the rows in the Update Balance column will have a button in it. I am going to name the button as Update. Your configuration should look like this.</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%209.png" alt="Elastic-9"></p>
+<p>On clicking the button, we should get a prompt on the screen with a textbox to write our new balance and update it. To accomplish this we are going to use another widget call <code>Modal</code>. Click the <code>+</code> icon next to Widgets and drag the modal widget to the canvas.</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%2010.png" alt="Elastic-10"></p>
+<p>Let&rsquo;s congigure our modal widget. I am going to name it New Balance and 2 more widgets into it, <code>Text</code> and <code>Input</code>.
+Write New Balance in the text and select the size of the text you desire. I am goinf to take Heading3 for this guide.
+Now it&rsquo;s time for the input widget. Select data type as currency and the type of currency as USD - US Dollar as our data also has amounts in Dollar. Leave all the settings as it is and come down. Check the Required button to ensure the user have to write data into it if he wants to execute the query. Your configurations should look something like this</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%2011.png" alt="Elastic-11">       <img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%2012.png" alt="Elastic-12"></p>
+<p>Let&rsquo;s work on the Confirm Button now. Click on it to configure it. You should see a <code>onClick</code> section under the Actions tag. What we want here is after the user presses that button, two queries should excecute. The first query should update the data with new balance entered and the second query will re-populate the table with the updated data.</p>
+<p>After clicking on the <code>onClick</code> section, choose <code>Execute an Query</code> and then <code>+ Create New Query</code>.</p>
+<p>Click on the <code>New Query</code> button of the datasource you want to make query in. Name your query with a proper name for better understanding and write the query.
+For updating the data we will use <code>POST</code> Method.</p>
+<p>In path write <code>/bank/_update/{{Table1.selectedRow._id}}</code> Table1 is the table which we have populated before and .selectRow_id will take the id of the row fro where we pressed the button.</p>
+<p>In body use the following command to update the data
+<code> { &quot;script&quot;: &quot;ctx._source.balance = {{new_balance.text}} &quot;  } </code>
+new_balance is the input widget where the user writes the new balance.
+It should look like this</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%2013.png" alt="Elastic-13"></p>
+<p>Now go back to the modal widget and click on the settings of Confirm button.</p>
+<p>Go on <code>onClick =&gt; Execute a query =&gt; Cleared_Query (the new query we just made)</code></p>
+<p>You can see that there&rsquo;s 2 more new options, onSuccess and onError. We will use this to re populate the table woth the updated data.
+In the onSuccess section select <code>Execute a query =&gt; Defaulters (the previous query which we used to read data)</code></p>
+<p>Voila! You have now made a function to update the data.
+We also need to close the modal after updating the balance. Click on the close button settings and in it&rsquo;s onClick method, select <code>close modal</code> and in the Modal section select the <code>Balance_Modal</code> or the name of the modal you have given.</p>
+<p>At the end your modal should look like this</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%2014.png" alt="Elastic-14"></p>
+<p>Our final step is to configure our Update button to set an onClick method which will open our modal
+Go to table =&gt; select Balance Update column settings =&gt; onClick =&gt; Open Modal =&gt; select the modal name Balance_Update</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%20-%201%20gif.gif" alt="Elastic-1-gif"></p>
+<p>Your application is now ready and can be easily deployed by clicking the Deploy button on the top right corner. You can also share your application to others by clicking the share button. You can also invite others to this app via email and even assign roles to them.</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%2016.png" alt="Elastic-16"></p>
+<p>Lets try to update one of the value to check if our application is working properly</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%20-%202%20gif.gif" alt="Elastic-2-gif"></p>
+<p>All the queries have executed properly. Lets check the value of id 6 if it&rsquo;s udated properly. I&rsquo;ll use Kibana to check the value.</p>
+<p><img src="https://github.com/achintya-7/appsmith-docs/blob/v1.3/.gitbook/assets/Elastic%2015.png" alt="Elastic-15"></p>
+<p>We can see the new balance is now 78000. Our update query was successful.</p>
+<p>Now you know how to update data using ElasticSearch as well.</p>
+
+														<p>
+															<b>Author:</b> Achintya
+														</p>
+
+                            
+
+                            
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "asetalias" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                            
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    <section class="split contact">
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              
+              <li><a href="https://twitter.com/AsetALiAS" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              
+              
+              <li><a href="https://www.facebook.com/asetalias/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              
+              
+              <li><a href="https://www.linkedin.com/company/asetalias/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              
+              
+              <li><a href="https://github.com/asetalias" class="icon fa-github"><span class="label">GitHub</span></a></li>
+              
+              
+              <li><a href="https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+              
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; ALiAS Writes</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+
+
+
+
+
+
+
+
+
+
+<script src='/blog/assets/js/bundle.js'></script>
+
+
+	</body>
+</html>
