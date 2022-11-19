@@ -1,8 +1,7 @@
 # ALiAS Writes
 *The official blog of ALiAS Community*
 
-[![Build Status](https://travis-ci.com/asetalias/blog.svg?branch=master)](https://travis-ci.com/asetalias/blog)  
-
+[![Build Status](https://travis-ci.com/asetalias/blog.svg?branch=master)](https://travis-ci.com/asetalias/blog)
 [![GitHub license](https://img.shields.io/github/license/asetalias/blog.svg?style=flat-square)](https://github.com/asetalias/blog/blob/master/LICENSE) 
 ![GitHub issues](https://img.shields.io/github/issues-raw/asetalias/blog.svg) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/asetalias/blog.svg)
