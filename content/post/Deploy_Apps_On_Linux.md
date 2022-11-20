@@ -1,6 +1,6 @@
 +++
 title = 'Deploy apps on Linux using NGINX and Systemd'
-slug = 'deplot-apps-on-linux-using-nginx-and-systemd'
+slug = 'deploy-apps-on-linux-using-nginx-and-systemd'
 image = 'images/BlogBanner.png'
 date = "2022-11-18T00:00:00"
 author = 'Achintya'
@@ -197,7 +197,7 @@ hostname -I
 
 Let's copy the public address and paste it into the browser. You'll see something like this.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668194572203/kHXTLGd_e.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668194572203/kHXTLGd_e.png?width=1200)
 
 It means our NGINX proxy is working properly.
 
@@ -241,7 +241,7 @@ sudo systemctl restart nginx.service
 ```
 Let's check our browser again and reload
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668195747737/sJOlzkaK7.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668195747737/sJOlzkaK7.png?width=1200)
 And VOILA!!!
 Our web server is working perfectly.
 
