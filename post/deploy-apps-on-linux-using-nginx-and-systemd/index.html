@@ -1,0 +1,110 @@
+<!doctype html><html lang=en><head><title>Deploy apps on Linux using NGINX and Systemd &#183; ALiAS Writes</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no"><link rel=stylesheet href=/blog/assets/css/main.min.css><noscript><link rel=stylesheet href=/blog/assets/css/noscript.css></noscript></head><body lang=en class=is-preload><div id=wrapper><style>img.responsive{width:100%;max-width:450px;height:auto}</style><header id=header><a href=/ class=logo><img src=/blog/images/logo.png alt="ALiAS Blog" width=450px height=180px class=responsive></a></header><nav id=nav><ul class=links><li class=active><a href=/>ALiAS Writes</a></li></ul><ul class=icons><li><a href=https://twitter.com/AsetALiAS class="icon fa-twitter"><span class=label>Twitter</span></a></li><li><a href=https://www.facebook.com/asetalias/ class="icon fa-facebook"><span class=label>Facebook</span></a></li><li><a href=https://www.linkedin.com/company/asetalias/ class="icon fa-linkedin"><span class=label>LinkedIn</span></a></li><li><a href=https://github.com/asetalias class="icon fa-github"><span class=label>GitHub</span></a></li><li><a href=https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g class="icon fa-youtube"><span class=label>Youtube</span></a></li></ul></nav><div id=main><section class=post><header class=major><span class=date>November 18, 2022</span><h1>Deploy apps on Linux using NGINX and Systemd</h1><p>Simple way to deploy your app on linux servers using systemd and nginx</p></header><div class="image main"><img src=/blog/images/BlogBanner.png alt></div><p><b>Categories:</b>
+<a href=http://asetalias.in/blog/categories/linux/>Linux</a>
+<a href=http://asetalias.in/blog/categories/devops/>DevOps</a><br><b>Tags:</b>
+<a href=http://asetalias.in/blog/tags/devops/>DevOps</a>
+<a href=http://asetalias.in/blog/tags/linux/>Linux</a>
+<a href=http://asetalias.in/blog/tags/nginx/>Nginx</a>
+<a href=http://asetalias.in/blog/tags/systemd/>systemd</a>
+<a href=http://asetalias.in/blog/tags/golang/>golang</a></p><h2 id=why>Why</h2><p>There might be a situation where you want to deploy your backend on an ubuntu server but you don&rsquo;t have/want to deploy your backend as a docker container.</p><h2 id=pre-requisites>Pre Requisites</h2><ul><li>Basic Linux</li><li>Golang (any backend-specific language like nodejs or python)</li></ul><h2 id=introduction>Introduction</h2><p>I will be making a simple GO backend which is a sister application to a socket io chat server. I have used the <a href=https://gofiber.io/>go-fiber</a> web framework and <a href=https://www.mongodb.com/>mongoDB</a> as the database.
+For deploying the code on a Linux environment, I will be using a raspberry pi which has Debian installed in it. All this procedure will work on ubuntu and ubuntu based distros as well. This procedure can also be followed for remote instances like an AWS ec2 instance or a GCP compute engine. We will also use NGINX as reverse proxy to expose our service.</p><h2 id=sshing-into-the-pi>SSHing into the Pi</h2><p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1668185995669/0t27S8Cph.png?auto=compress,format&format=webp" alt="Data Visulization"></p><p>Now, let&rsquo;s update the Linux Packages</p><pre tabindex=0><code>sudo apt update
+sudo apt upgrade
+</code></pre><p>After that, we can install the required packages using this</p><pre tabindex=0><code>sudo apt install golang-go git nginx
+</code></pre><h2 id=pulling-and-setting-up-go-code>Pulling and Setting up GO code</h2><p>We can now use git to clone the codebase from GitHub and build an executable file. You can clone any of your projects or clone mine as well.</p><pre tabindex=0><code>git clone https://github.com/achintya-7/go-fiber-chat.git
+cd go-fiber-chat/
+</code></pre><p>This is a snippet of main.go file. You can see the server is deployed to port 4000.</p><pre tabindex=0><code>package main 
+  
+ import ( 
+         &#34;github.com/achintya-7/go-fiber-chat/configs&#34; 
+         &#34;github.com/achintya-7/go-fiber-chat/routes&#34; 
+         &#34;github.com/gofiber/fiber/v2&#34; 
+ ) 
+  
+ func main() { 
+  
+         app := fiber.New() 
+  
+         configs.ConnectDB() 
+  
+         app.Get(&#34;/&#34;, func(c *fiber.Ctx) error { 
+                 return c.Status(200).JSON(fiber.Map{ 
+                         &#34;Status&#34;:         &#34;200&#34;, 
+                         &#34;API is running&#34;: &#34;Successfully&#34;, 
+                 }) 
+         }) 
+  
+         routes.UserRoute(app) 
+         routes.ChatRoute(app) 
+  
+         app.Listen(&#34;127.0.0.1:4000&#34;) 
+  
+ }
+</code></pre><p>Now would be the right time to make a .env file and add all your secrets. If you are following the go-fiber-chat. You will require a Mongo URI and add it to the .env file</p><pre tabindex=0><code>touch .env
+nano .env
+</code></pre><p>Add this in the .env file</p><pre tabindex=0><code>MONGO_URI=&#34;mongodb+srv://{mongo username}:{mongo password}@####.net/test&#34;
+</code></pre><p>Let&rsquo;s run the code and check it</p><p><img src=https://cdn.hashnode.com/res/hashnode/image/upload/v1668188138247/sXkIUr8mP.png alt=image.png></p><p>It&rsquo;s working fine now. Build the application using the following command.</p><pre tabindex=0><code>go build main.go
+</code></pre><h2 id=making-a-systemd-file>Making a Systemd File</h2><p>Systemd is a system and service manager for Linux. It offers on-demand starting of daemons and keeps track of processes using Linux cgroups. Let&rsquo;s see how to make one.</p><pre tabindex=0><code>cd /lib/systemd/system
+sudo nano gochat.service
+</code></pre><p>Now add this snippet to your config file</p><pre tabindex=0><code>[Unit]
+Description=gochat
+ 
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+ExecStart=/home/achintya/go_projects/go-fiber-chat/main
+EnvironmentFile=/home/achintya/go_projects/go-fiber-chat/.env
+ 
+
+[Install]
+WantedBy=multi-user.target
+</code></pre><p>Here,</p><ul><li>The variable ExecStart indicates the point of entry for the service through the main executable located in our project directory.</li><li>The variable Restart tells systemd what to do in the event the program stops running. The value always tells systemd to restart the program every single time it stops executing.</li><li>The variable RestartSec tells systemd to wait a specific amount of time before attempting to restart the program. Here, the value is set to 5s (5 seconds).</li><li>The variable EnvironmentFile is a way to load our .env file. We can also declare multiple EnvironmentFile variables to load different files.</li><li>The statement WantedBy=multi-user.target specifies in what state systemd will enable the service.</li></ul><h3 id=note-only-for-go-users>Note: Only for GO users</h3><p>You might want to change a small snippet of code to make the code run properly without error.</p><pre tabindex=0><code>nano go-fiber-chat/configs/env.go
+</code></pre><p>replace the code with from this</p><pre tabindex=0><code>package configs
+
+import (
+	&#34;log&#34;
+	&#34;os&#34;
+
+	&#34;github.com/joho/godotenv&#34;
+)
+
+func GetEnv(key string) string {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal(&#34;Error loading .env file&#34;)
+	}
+	return os.Getenv(key)
+}
+</code></pre><p>to this</p><pre tabindex=0><code>package configs
+
+import (
+        &#34;os&#34;
+)
+
+func GetEnv(key string) string {
+        return os.Getenv(key)
+}
+</code></pre><p>As the env file is getting loaded from the EnvironmentFile variable, we don&rsquo;t need this extra package.</p><p>Now, let&rsquo;s run the service with the following command</p><pre tabindex=0><code>sudo systemctl start gochat.service
+sudo systemctl status gochat.service
+</code></pre><p><img src=https://cdn.hashnode.com/res/hashnode/image/upload/v1668192960445/7ApzCcNth.png alt=image.png></p><p>Our service is running successfully in the background. Now also run this command to start this service whenever the machine boots up.</p><pre tabindex=0><code>sudo systemctl enable gochat.service
+</code></pre><h2 id=setting-up-nginx-as-a-reverse-proxy>Setting up NGINX as a reverse proxy</h2><p>Now, we will create a server block for Nginx to act as a reverse proxy. The web app will be exposed to the internet through the reverse proxy (for additional performance and security). <em><strong>Sound cool but what exactly is a reverse proxy?</strong></em></p><p>A reverse proxy server is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server. A reverse proxy provides an additional level of abstraction and control to ensure the smooth flow of network traffic between clients and servers.</p><p>Essentially your network’s traffic cop, the reverse proxy serves as a gateway between users and your application origin server. In so doing it handles all policy management and traffic routing.</p><p>A reverse proxy operates by:</p><ul><li>Receiving a user connection request</li><li>Completing a TCP three-way handshake, terminating the initial connection</li><li>Connecting with the origin server and forwarding the original request</li></ul><p><img src=https://cdn.hashnode.com/res/hashnode/image/upload/v1668193471125/e5DwApbUs.png alt=image.png></p><h2 id=lets-see-if-nginx-is-running>Let&rsquo;s see if NGINX is running</h2><p>If we have been working with a VM instance from a cloud provider, they will provide you with a static public IP address which can be used over the internet. In my case, I can&rsquo;t get a static public IP address for now as the WiFi will change the IP address periodically. Another approach can be is the application of dynamic DNS (DDNS). This links your dynamic public IP address with a domain name. Every time, as soon as your IP address changes, a program redirects the new address to the domain name and makes it permanently available on the internet. Now if you link a server on Raspberry Pi with the domain name, it’s permanently accessible online. For demonstration purposes, I will be using my private IP address. You can get it by using this command</p><pre tabindex=0><code>hostname -I
+</code></pre><p>Let&rsquo;s copy the public address and paste it into the browser. You&rsquo;ll see something like this.</p><p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1668194572203/kHXTLGd_e.png?width=1200" alt=image.png></p><p>It means our NGINX proxy is working properly.</p><h2 id=lets-write-a-config-file-to-expose-our-backend>Let&rsquo;s write a config file to expose our backend</h2><p>Go to the following directory and make a new config file</p><pre tabindex=0><code>cd /etc/nginx/sites-available
+sudo nano chatserver
+</code></pre><p>Paste the following content into the editor</p><pre tabindex=0><code>server {
+    location / {
+        proxy_pass http://localhost:4000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection &#39;upgrade&#39;;
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+   }
+}
+</code></pre><p>$http_upgrade is a variable which can upgrade our HTTP connection to a WebSocket connection for realtime data transfer.</p><p>Next, create a symlink of this Nginx configuration in the sites-enabled folder by running the following command:</p><pre tabindex=0><code>sudo ln -s /etc/nginx/sites-available/chatserver /etc/nginx/sites-enabled/chatserver
+</code></pre><p>Now cd into the sites-enabled directory and delete the default file</p><pre tabindex=0><code>cd ..
+cd sites-enabled
+rm default
+</code></pre><p>Now we are done and all we have to do is reload NGINX and restart its service.</p><pre tabindex=0><code>sudo nginx -s reload
+sudo systemctl restart nginx.service
+</code></pre><p>Let&rsquo;s check our browser again and reload</p><p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1668195747737/sJOlzkaK7.png?width=1200" alt=image.png>
+And VOILA!!!
+Our web server is working perfectly.</p><h2 id=how-to-connect-me>How to Connect me</h2><p>If you are reading this. Thank you for giving my blog a read. Hope it helped you and you learned something new. You can check out my other blogs as well from my profile. You can also get all my socials from this <strong><a href=https://t.co/15XIsUEuzV>link</a></strong>.</p><p><b>Author:</b> Achintya</p><div id=disqus_thread></div><script type=application/javascript>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//asetalias.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></section></div><footer id=footer><section class="split contact"><section><h3>Social</h3><ul class="icons alt"><li><a href=https://twitter.com/AsetALiAS class="icon fa-twitter"><span class=label>Twitter</span></a></li><li><a href=https://www.facebook.com/asetalias/ class="icon fa-facebook"><span class=label>Facebook</span></a></li><li><a href=https://www.linkedin.com/company/asetalias/ class="icon fa-linkedin"><span class=label>LinkedIn</span></a></li><li><a href=https://github.com/asetalias class="icon fa-github"><span class=label>GitHub</span></a></li><li><a href=https://www.youtube.com/channel/UCKkyqEMLFW3jz-q3nJIFL3g class="icon fa-youtube"><span class=label>Youtube</span></a></li></ul></section></section></footer><div id=copyright><ul><li>&copy; ALiAS Writes</li><li>Design: <a href=https://html5up.net>HTML5 UP</a></li><li>Hugo Port: <a href=https://curtistimson.co.uk>curttimson</a></li></ul></div></div><script src=/blog/assets/js/bundle.js></script></body></html>
