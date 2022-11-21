@@ -1,13 +1,15 @@
 # ALiAS Writes
 *The official blog of ALiAS Community*
 
-[![Build Status](https://travis-ci.com/asetalias/blog.svg?branch=master)](https://travis-ci.com/asetalias/blog)  [![HitCount](http://hits.dwyl.io/asetalias/blog.svg)](http://hits.dwyl.io/asetalias/blog) [![GitHub license](https://img.shields.io/github/license/asetalias/blog.svg?style=flat-square)](https://github.com/asetalias/blog/blob/master/LICENSE) 
-![GitHub issues](https://img.shields.io/github/issues-raw/asetalias/blog.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/asetalias/blog.svg)
+[![Build Status](https://travis-ci.com/asetalias/blog.svg?branch=master)](https://travis-ci.com/asetalias/blog)
+[![GitHub license](https://img.shields.io/github/license/asetalias/blog.svg?style=flat-square)](https://github.com/asetalias/blog/blob/master/LICENSE) 
+![GitHub issues](https://img.shields.io/github/issues-raw/asetalias/blog.svg) 
+![GitHub repo size](https://img.shields.io/github/repo-size/asetalias/blog.svg)
 ![Twitter Follow](https://img.shields.io/twitter/follow/asetalias.svg?style=social)
 
 This repository holds the source code and related content of the official blog for Amity Linux Assitance Sapience
 
-ALiAS is a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming a better developer.
+ALiAS is a platform for upcoming developers for finding exposure by meeting the people working in related industries, learning various languages and becoming better developers.
 
 Please make sure to follow our community [Code of Conduct](https://github.com/asetalias/asetalias.github.io/blob/master/Code_of_Conduct.md) while contributing to the project. 
 
@@ -15,8 +17,8 @@ The website has been created using hugo and the theme used is hugo-massively-the
 
 ## Want to help out?
 This website is currently under construction and all your inputs are highly appreciated.
--   Any writers willing to add your own thoughts to the blog can refer to the [instructions for Writer](https://github.com/asetalias/blog/#instruction-for-writers) section to learn about posting on the blog.
--   Any developers interested in the development of the blog and solving issues can refer to the [Instructions for Developers:](https://github.com/asetalias/blog/#instrucitons-for-developers) for help on how to contribute.
+-   Any writers willing to add your own thoughts to the blog can refer to the [Instruction for Writer](https://github.com/asetalias/blog/#instruction-for-writers) section to learn about posting on the blog.
+-   Any developers interested in the development of the blog and solving issues can refer to the [Instruction for Developers:](https://github.com/asetalias/blog/#instrucitons-for-developers) for help on how to contribute.
 -   First time Git/Github users can refer to the [First time Contributors](https://github.com/asetalias/blog/#first-time-contributors) section for guides to help start contributing.
 
 -   To be involved in the ongoing discussions please join our [Telegram Group](https://t.me/joinchat/KDFmCRdcpJrASFp5pKVaCA).
@@ -34,7 +36,7 @@ This website is currently under construction and all your inputs are highly appr
 
 * * *
 
-## Instrucitons for Developers:
+## Instruction for Developers:
 
 `Git is required to contribute to the website and Hugo is required to run the site and test it on a local server.`
 
@@ -54,17 +56,17 @@ $ git clone --recursive https://github.com/<username>/blog.git
 
 ## Instruction for Writers:
 
-The markup used for blog posts is **Markdown**
+The markup used for blog posts is **Markdown**.
 
 1) Fork the repository and clone to your machine by using the command 
 ```
 $ git clone --recursive https://github.com/<username>/blog.git
 ```
-2) Create you work file/blog post in `/content/post`, see existing files as an example.
+2) Create your work file/blog post in `/content/post`. See existing files for an example.
 
     2.5. The format needs to be exactly like [the sample post](./content/post/post.en.md) for correct representation. 
 
-    Same has been given below. Edit and append this to the top of your post when finish writing. 
+    Same has been given below. Edit and append this to the top of your post when you are finished writing. 
 
     ```
     +++
