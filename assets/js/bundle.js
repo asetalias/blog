@@ -618,7 +618,8 @@ var breakpoints=function(){"use strict";function e(e){t.init(e)}var t={list:null
 		$header = $('#header'),
 		$nav = $('#nav'),
 		$main = $('#main'),
-		$navPanelToggle, $navPanel, $navPanelInner;
+		$navPanelToggle = $('#navPanelToggle'),
+		$navPanel, $navPanelInner;
 
 	// Breakpoints.
 		breakpoints({
@@ -732,11 +733,6 @@ var breakpoints=function(){"use strict";function e(e){t.init(e)}var t={list:null
 	// Nav Panel.
 
 		// Toggle.
-			$navPanelToggle = $(
-				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
-			)
-				.appendTo($wrapper);
-
 			// Change toggle styling once we've scrolled past the header.
 				$header.scrollex({
 					bottom: '5vh',
