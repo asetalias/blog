@@ -1,7 +1,7 @@
 +++
 title = "Online Hackathon : An Experiment"
 slug = "first-online-hackathon-akshat"
-image = "https://user-images.githubusercontent.com/32462195/71546083-0a7eeb80-29b9-11ea-9666-c5becb26fce3.jpg"
+cover.image = "https://user-images.githubusercontent.com/32462195/71546083-0a7eeb80-29b9-11ea-9666-c5becb26fce3.jpg"
 date = "2020-01-03T00:00:00"
 description = "Experience from my first online Hackathon"
 disableComments = false

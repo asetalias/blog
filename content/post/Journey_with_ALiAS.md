@@ -1,7 +1,7 @@
 +++
 title = "ALiAS : My first open-source community"
 slug = "Journey with open source community"
-image = "/images/Cover.jpg"
+cover.image = "images/Cover.jpg"
 date = "2018-02-20T00:00:00"
 description = "This blog describes my personal Journey with ALiAS"
 disableComments = false

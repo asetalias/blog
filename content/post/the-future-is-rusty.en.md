@@ -1,7 +1,7 @@
 +++
 title = 'The Future is Rust(y)?'
 slug = 'future-with-rust'
-image = 'https://cdn.dribbble.com/users/241205/screenshots/4977779/drib_00_webasm_tank.png'
+cover.image = 'https://cdn.dribbble.com/users/241205/screenshots/4977779/drib_00_webasm_tank.png'
 date = "2019-06-14T00:00:00"
 author = 'Swarnim Arun'
 tags=['rust','programming']

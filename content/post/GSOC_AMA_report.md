@@ -1,7 +1,7 @@
 +++
 title = "ALiAS does it again: Report on our GSoC AMA program"
 slug = "aliasama"
-image = "images/logo1.png"
+cover.image = "images/logo1.png"
 date = "2019-06-02T00:00:00"
 description = "A short report on ALiAS's successful Google Summer of Code program, and a brief story of how the idea came to life"
 disableComments = false

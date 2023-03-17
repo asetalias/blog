@@ -1,7 +1,7 @@
 +++
 title = "Getting Started With Flutter"
 slug = "Getting-started-with-Flutter"
-image = "images/flutter.jpg"
+cover.image = "images/flutter.jpg"
 date = "2019-06-05T00:00:00"
 description = "Blog on how to setup Flutter from scratch."
 disableComments = false

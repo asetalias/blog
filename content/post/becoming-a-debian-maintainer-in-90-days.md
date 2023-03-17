@@ -1,7 +1,7 @@
 +++
 title = 'Becoming a Debian Maintainer in 90 days!'
 slug = 'build-commit-dput'
-image = '/img/utkarsh2102/debian.png'
+cover.image = 'images/debian.png'
 date = "2019-06-02T04:00:00"
 author = 'Utkarsh Gupta'
 tags=['debian', 'maintainer', 'DM', 'packaging', 'open-source']
