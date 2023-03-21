@@ -1,7 +1,7 @@
 +++
 title = "My journey with ALiAS : From a commit to the community"
 slug = "animesh-alias-journey"
-image = "/images/community.jpg"
+cover.image = "images/community.jpg"
 date = "2019-06-15T00:00:00"
 tags=['ALiAS', 'FOSS', 'Alumni', 'Experiences']
 categories = ['Alumni-Journals']

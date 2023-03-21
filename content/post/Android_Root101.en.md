@@ -2,7 +2,7 @@
 title = "A Guide to Flashing Custom ROMs [Android]"
 slug = "flash_custom_rom"
 date = "2018-02-25T00:00:00"
-image= "https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(1).jpg"
+cover.image = "https://raw.githubusercontent.com/rohanvtk/images-for-everybody/master/andro_root%20(1).jpg"
 description = "Sick and tired of the bloatware on your current OEM ROM. Head over and learn how to flash custom ROMs."
 author = "RohanVTK"
 tags = ['Smartphone', 'Customization']

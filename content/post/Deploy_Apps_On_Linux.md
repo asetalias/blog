@@ -1,7 +1,7 @@
 +++
 title = 'Deploy apps on Linux using NGINX and Systemd'
 slug = 'deploy-apps-on-linux-using-nginx-and-systemd'
-image = 'images/BlogBanner.png'
+cover.image = 'images/BlogBanner.png'
 date = "2022-11-18T00:00:00"
 author = 'Achintya'
 tags=['DevOps', 'Linux', 'Nginx', 'systemd', 'golang']

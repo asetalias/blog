@@ -1,7 +1,7 @@
 +++
 title = "Community Unpacked"
 slug = "alias-lucknow-journey-akshat"
-image = "https://user-images.githubusercontent.com/32462195/71546088-179bda80-29b9-11ea-915d-b6552f9f2519.jpg"
+cover.image = "https://user-images.githubusercontent.com/32462195/71546088-179bda80-29b9-11ea-915d-b6552f9f2519.jpg"
 date = "2019-02-20T00:00:00"
 description = "My journey to set up a coding community in my college campus i.e. ALiAS LUCKNOW"
 disableComments = false
