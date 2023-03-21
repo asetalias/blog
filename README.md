@@ -60,7 +60,7 @@ The markup used for blog posts is **Markdown**.
 
 1) Fork the repository and clone to your machine by using the command 
 ```
-$ git clone --recursive https://github.com/<username>/blog.git
+$ git clone --recursive https://github.com/asetalias/blog.git
 ```
 2) Create your work file/blog post in `/content/post`. See existing files for an example.
 
