@@ -1,7 +1,3 @@
-[submodule "themes/hugo-theme-massively"]
-	path = themes/hugo-theme-massively
-	url = https://github.com/ditsuke/hugo-theme-massively.git
-	branch = master
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git

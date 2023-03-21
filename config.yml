@@ -18,10 +18,10 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "ALiAS Writes"
   description: "The Biggest Open Source Community in Amity"
-  keywords: [Blog, PaperMod]
+  keywords: [ Blog, PaperMod ]
   # author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["static/images/logo.png"]
+  images: [ "static/images/logo.png" ]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -44,7 +44,7 @@ params:
 
   assets:
     # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: "images/alias.png"
     favicon16x16: "images/alias.png"
     favicon32x32: "images/alias.png"
@@ -54,7 +54,6 @@ params:
   label:
     icon: "images/alias.png"
     iconHeight: 50
-
   # socialIcons:
   #   - name: twitter
   #     url: "https://twitter.com/"
