@@ -38,9 +38,20 @@ To know more, Let's go on a journey and explore the new generation of communicat
    6. <b>Message Framing and Routing</b>: With an interaction encrypted and signed, the Message Layer constructs the payload format with required and optional header fields.
    7. <b>IP Framing and Transport Management</b>: After the final payload has been constructed, it is sent ot the underlying transport protocol for IP management of the data.
 </p>
+<br>
 ## Development Goals of Matter
+<br>
 <p> Currently Matter is being developed with the following goald and principles in mind:
-  1.
+  1. <b> Unifying </b>: Matter is built with and on top of market-tested technologies.
+  2. <b> Interoperable</b>: The specification permits communication between any Matter-certified device.
+  3. <b> Secure</b>: The Specification leverages modern security practices and protocols.
+  4. <b> User Control</b>: The end user controls authorization for interaction with devices.
+  5. <b> Federated: No single entity serves as a throttle or a single point of faulure for root of trust.
+  6. <b> Robust</b> The set of protocols aims to provide a seamless out of box experience for it's users.
+  7. <b> Open</b>: The project's design and technical processes are open and transparent to the general public, including non members wherever possible.
+  </p>
+  
+  
   
 
   
