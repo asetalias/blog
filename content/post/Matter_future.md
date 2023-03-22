@@ -25,7 +25,7 @@ To know more, Let's go on a journey and explore the new generation of communicat
  
  ## Architecture overiew 
    
-</p>
+<p>
    Matter aims to build a universal IPv6- based communication protocol for smart home devices. The protocol defines the application layer that will be deployed on devices and the different link layers to help maintain interoperability.
    
    The Matter architecture is divided into layers to seperate different responsibilities and introduce a good level of encapsulation among the various pieces of the protocol stack. Following describes each layer and their role in the protocol stack.
@@ -41,7 +41,8 @@ To know more, Let's go on a journey and explore the new generation of communicat
 <br>
 ## Development Goals of Matter
 <br>
-<p> Currently Matter is being developed with the following goald and principles in mind:
+<p>
+  Currently Matter is being developed with the following goald and principles in mind:
   1. <b> Unifying </b>: Matter is built with and on top of market-tested technologies.
   2. <b> Interoperable</b>: The specification permits communication between any Matter-certified device.
   3. <b> Secure</b>: The Specification leverages modern security practices and protocols.
