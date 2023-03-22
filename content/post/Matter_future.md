@@ -38,21 +38,24 @@ To know more, Let's go on a journey and explore the new generation of communicat
    6. <b>Message Framing and Routing</b>: With an interaction encrypted and signed, the Message Layer constructs the payload format with required and optional header fields.
    7. <b>IP Framing and Transport Management</b>: After the final payload has been constructed, it is sent ot the underlying transport protocol for IP management of the data.
 </p>
-<br>
-## Development Goals of Matter
-<br>
-<p>
-  Currently Matter is being developed with the following goald and principles in mind:
-  1. <b> Unifying </b>: Matter is built with and on top of market-tested technologies.
-  2. <b> Interoperable</b>: The specification permits communication between any Matter-certified device.
-  3. <b> Secure</b>: The Specification leverages modern security practices and protocols.
-  4. <b> User Control</b>: The end user controls authorization for interaction with devices.
-  5. <b> Federated: No single entity serves as a throttle or a single point of faulure for root of trust.
-  6. <b> Robust</b> The set of protocols aims to provide a seamless out of box experience for it's users.
-  7. <b> Open</b>: The project's design and technical processes are open and transparent to the general public, including non members wherever possible.
-  </p>
-  
-  
-  
 
+
+## Development Goals of Matter
+<p>
+Currently Matter is being developed with the following goals and principles in mind:<br>
+  1. <b> Unifying </b>: Matter is built with and on top of market-tested technologies.<br>
+  2. <b> Interoperable</b>: The specification permits communication between any Matter-certified device.<br>
+  3. <b> Secure</b>: The Specification leverages modern security practices and protocols.<br>
+  4. <b> User Control</b>: The end user controls authorization for interaction with devices.<br>
+  5. <b> Federated</b>: No single entity serves as a throttle or a single point of faulure for root of trust.<br>
+  6. <b> Robust</b> The set of protocols aims to provide a seamless out of box experience for it's users.<br>
+  7. <b> Open</b>: The project's design and technical processes are open and transparent to the general public, including non members wherever possible.<br>
+    </p>
+  <br>
+  
+  <b> Matter</b> does seem to be a very important part of the future. As we all know, it is the thirst of a human being for knowledge. So follow along to the next leg of journey where we explore <b>How to Get Started with Matter?</b>
+  
+  ## Getting Started With Matter
+ <p>
+  
   
