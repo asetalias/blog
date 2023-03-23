@@ -53,9 +53,30 @@ Currently Matter is being developed with the following goals and principles in m
     </p>
   <br>
   
-  <b> Matter</b> does seem to be a very important part of the future. As we all know, it is the thirst of a human being for knowledge. So follow along to the next leg of journey where we explore <b>How to Get Started with Matter?</b>
+  <b> Matter</b> does seem to be a very important part of the future. As we all know, it is the thirst of a human being for knowledge. So let's see how <b> Matter </b> works in a smart home enviorment.
   
-  ## Getting Started With Matter
+  ## How does it work?
  <p>
-  
-  
+  Let's see how a packet would be sent from the <b> Matter Controller</b> to the Matter enabled device, over the <b>Matter Protocol</b>.
+  Let's take an example of a nest hub as a matter enabled hub and a light device.<br>
+  <br>
+  1.<b> Creating a packet</b>: As we want to connect with the light device. A Smart Packet is made and is encrypted in a string of 0's and 1's. This smart packet contains the information about the data being transmitted and information about the data being in the device.
+  <br>
+  When the device sends a packet, the application layer prepares the packet for transmission by adding any necessary application-level data.<br>
+  <br>
+  2.<b> Routing the Smart Packet</b>: The light then sends the smart packet to the Google Nest Hub router using the thread protocol. As thread uses IPv6 protocol, it can directly connect to the internet, and enables a low latency transmission. Here a header and trailer is alos added. A header contains information about the sender and reciever and information about the packet's sequence number and other parameter. The trailer contains information that enables recieving device to detect any errors that may occur in transmission.
+  <br>
+  This occurs over the network layer, the network layer also determines the optimal path for the packet to reach its destination.<br>
+  <br>
+  3.<b> Decrypting and Parsing the Smart Packet</b>: The Google Nest Hub router then recieves the smart packet and decrypts the string of 0 and 1's using the Matter Protocol. The router then parses the packet to extract the data and information about the sender.
+  <br>
+  This occurs over the link layer, The link layer. The link layer is responsible for managing the physical layer of the communication. It is responsible for sending and recieving packets over the air using the Thread Wireless protocol. The link layer modulates the digital data into an analog signal that can be transmitted over the air using Radio Waves.<br>
+  <br>
+  4. <b>Forwading the Data</b>: The Google Nest hub router then forwards the data contained in the smart packet to the appropriate given device in the Smart Home Enviorment. This occurs over the Physical Layer, As it is responsible for transmitting the modulated signal over the air using the radio waves. When a device sends a packet, the physical layer then transmits the modulated signal over the air to the recieving device.<br>
+  <br>
+  5. <b>Acknowledging the Command</b>: Onve the command is executed and recieved by the Smart Light it thens send a response packet back to the device that originally send the smart packet to confirm that the command was executed successfully.
+  <br>
+  The Same Response packet is sent over the same layers and thus the response packet is confirmed by the Nest Hub, this shows that the command has executed successfully.
+<br>
+  </p>
+ 
