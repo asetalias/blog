@@ -1,3 +1,5 @@
+
+
 Hi everyone, This blog explores the new communication protocol, known as Matter which is being developed by <strong>Connectivity Standards Alliance (CSA)</strong>
 <br>
 To know more, Let's go on a journey and explore the new generation of communication protocols.
@@ -24,7 +26,6 @@ To know more, Let's go on a journey and explore the new generation of communicat
  </p>
  
  ## Architecture overiew 
-   
 <p>
    Matter aims to build a universal IPv6- based communication protocol for smart home devices. The protocol defines the application layer that will be deployed on devices and the different link layers to help maintain interoperability.
    
@@ -78,5 +79,22 @@ Currently Matter is being developed with the following goals and principles in m
   <br>
   The Same Response packet is sent over the same layers and thus the response packet is confirmed by the Nest Hub, this shows that the command has executed successfully.
 <br>
-  </p>
+We have now seen how a packet is sent and recieved over a Smart Home Network. Let's continue towards the Next Leg of our Journey and explore the Future with Matter. 
+</p>
  
+## Future of Matter
+<p>
+  The current status of Matter, involves an Open-Source Approach. The design and technical processess are intended to be transparent to the piblic, including to Working Group non-members wherever possible. Matter endeavors to bring together the best aspects of market-tested technologies and redeploy them as a unified cohesive whole-system solution. The Overall Goal of this Approach is to bring the best experience to the consumers and manufacturers as quickly as possible.
+  <br>
+  Till now, in the market there are no Matter enabled devices available, however this is sure to change in a few months. Major Companies such as Google, Amazon, Apple and many more have rolled out the updates to make their current devices <b> Matter-ready</b>. This ensures a seamless transition to a new ecosystem automatically. In the future we can expect new updates to the Matter Protocol itself, and the many ways Legacy Products will be supported in a Matter-Enabled Ecosystem.
+  <br>
+  We all are currently in the Middle of a revolution, and if you want to be a part of this revolution.
+  Check out the github repositories and the links for contribution in the <b>Reference Section</b>. AliAS will be soon be covering a new Blog <b> Getting Started With Matter</b>. So I will meet you, in the next Leg of our Journey. ♥
+ </p>
+ 
+ ## Reference Links
+ 1. https://csa-iot.org/all-solutions/matter/
+ 2. https://github.com/project-chip/connectedhomeip
+ 3. https://www.theverge.com/22832127/matter-smart-home-products-thread-wifi-explainer
+ 4. https://developers.home.google.com/matter
+  
