@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Smart Homes on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/categories/smart-homes/</link>
+    <description>Recent content in Smart Homes on ALiAS Writes</description>
+    <image>
+      <title>ALiAS Writes</title>
+      <url>http://asetalias.in/blog/static/images/logo.png</url>
+      <link>http://asetalias.in/blog/static/images/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 23 Mar 2023 10:00:00 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/categories/smart-homes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matter and the future</title>
+      <link>http://asetalias.in/blog/post/matter_future/</link>
+      <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/matter_future/</guid>
+      <description>This blog explores Matter a new communication protocol made by CSA</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,7 +10,52 @@
       <link>http://asetalias.in/blog/static/images/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 10:00:00 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google-projects</title>
+      <link>http://asetalias.in/blog/tags/google-projects/</link>
+      <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/google-projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT</title>
+      <link>http://asetalias.in/blog/tags/iot/</link>
+      <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>http://asetalias.in/blog/tags/networking/</link>
+      <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Devices</title>
+      <link>http://asetalias.in/blog/tags/smart-devices/</link>
+      <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/smart-devices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Home</title>
+      <link>http://asetalias.in/blog/tags/smart-home/</link>
+      <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/smart-home/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>DevOps</title>
       <link>http://asetalias.in/blog/tags/devops/</link>

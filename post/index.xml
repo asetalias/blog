@@ -10,7 +10,16 @@
       <link>http://asetalias.in/blog/static/images/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 10:00:00 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matter and the future</title>
+      <link>http://asetalias.in/blog/post/matter_future/</link>
+      <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/matter_future/</guid>
+      <description>This blog explores Matter a new communication protocol made by CSA</description>
+    </item>
+    
     <item>
       <title>Deploy apps on Linux using NGINX and Systemd</title>
       <link>http://asetalias.in/blog/post/deploy-apps-on-linux-using-nginx-and-systemd/</link>
