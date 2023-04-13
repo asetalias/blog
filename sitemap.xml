@@ -3,10 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://asetalias.in/blog/</loc>
-    <lastmod>2023-03-23T10:00:00+00:00</lastmod>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/categories/</loc>
-    <lastmod>2023-03-23T10:00:00+00:00</lastmod>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/devops/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/post/framework-laptop-mainstreaming-right-to-repair/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/hardware/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/categories/hardware/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/laptops/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/categories/open-source/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/open-source/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/post/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/right-to-repair/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/</loc>
+    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/tags/google-projects/</loc>
     <lastmod>2023-03-23T10:00:00+00:00</lastmod>
@@ -26,9 +56,6 @@
     <loc>http://asetalias.in/blog/categories/networks/</loc>
     <lastmod>2023-03-23T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://asetalias.in/blog/post/</loc>
-    <lastmod>2023-03-23T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://asetalias.in/blog/tags/smart-devices/</loc>
     <lastmod>2023-03-23T10:00:00+00:00</lastmod>
   </url><url>
@@ -41,13 +68,7 @@
     <loc>http://asetalias.in/blog/categories/smart-devices/</loc>
     <lastmod>2023-03-23T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://asetalias.in/blog/tags/</loc>
-    <lastmod>2023-03-23T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://asetalias.in/blog/post/deploy-apps-on-linux-using-nginx-and-systemd/</loc>
-    <lastmod>2022-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://asetalias.in/blog/tags/devops/</loc>
     <lastmod>2022-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/categories/devops/</loc>
@@ -186,9 +207,6 @@
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/categories/maintainer/</loc>
-    <lastmod>2019-06-02T04:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://asetalias.in/blog/tags/open-source/</loc>
     <lastmod>2019-06-02T04:00:00+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/tags/packaging/</loc>

@@ -10,7 +10,52 @@
       <link>http://asetalias.in/blog/static/images/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Mar 2023 10:00:00 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Apr 2023 12:23:23 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>http://asetalias.in/blog/tags/devops/</link>
+      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>http://asetalias.in/blog/tags/hardware/</link>
+      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laptops</title>
+      <link>http://asetalias.in/blog/tags/laptops/</link>
+      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/laptops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>http://asetalias.in/blog/tags/open-source/</link>
+      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Right to Repair</title>
+      <link>http://asetalias.in/blog/tags/right-to-repair/</link>
+      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/tags/right-to-repair/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Google-projects</title>
       <link>http://asetalias.in/blog/tags/google-projects/</link>
@@ -53,15 +98,6 @@
       <pubDate>Thu, 23 Mar 2023 10:00:00 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/tags/smart-home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>http://asetalias.in/blog/tags/devops/</link>
-      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/tags/devops/</guid>
       <description></description>
     </item>
     
@@ -332,15 +368,6 @@
       <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/tags/maintainer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open-source</title>
-      <link>http://asetalias.in/blog/tags/open-source/</link>
-      <pubDate>Sun, 02 Jun 2019 04:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/tags/open-source/</guid>
       <description></description>
     </item>
     
