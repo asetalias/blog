@@ -86,18 +86,24 @@ ageDecayParams = Some (ThriftAgeDecayRankingParams (slope = 0.005, base = 1.0))
 As suggested in the code attatched below, if a user is following way more users than the number of people following them, their tweets may get a nerf in terms of ranking. The quality of users you interact with also plays a role, as interacting with bots, spam accounts or accounts with lower rankings might also get you a demotion. This entire system does play out almost like an ELO ranking system at times!
 
 ```
-//reduce pagerank of users with low followers but high followings
-
-def adjustReputationsPostCalculation(mass: Double, numFollowers: Int, numFollowings: Int) = {
-if (numFollowings > threshAbsNumFriendsReps) {
-val friendsToFollowersatio = (1.0 + numFollowings) / (1.0 + numFollowers) val divFactor =
-scala.math. exp(
-constantDivisionfactort_threshFriendsToFollowersatioReps*
-(friendsToFollowersRatio-threshFriendsToFollowersRatioUMass)*
-scala.math. log(scala.math. log(numFollowings))
-mass / ((divFactor min maDivFactorReps) max 1.0)
-) else {
-mass
+ /**
+   * reduce pagerank of users with low followers but high followings
+   */
+  def adjustReputationsPostCalculation(mass: Double, numFollowers: Int, numFollowings: Int) = {
+    if (numFollowings > threshAbsNumFriendsReps) {
+      val friendsToFollowersRatio = (1.0 + numFollowings) / (1.0 + numFollowers)
+      val divFactor =
+        scala.math.exp(
+          constantDivisionFactorGt_threshFriendsToFollowersRatioReps *
+            (friendsToFollowersRatio - threshFriendsToFollowersRatioUMass) *
+            scala.math.log(scala.math.log(numFollowings))
+        )
+      mass / ((divFactor min maxDivFactorReps) max 1.0)
+    } else {
+      mass
+    }
+  }
+}
 
 ```
 
@@ -110,43 +116,43 @@ On the flip side, there are some actions that can downgrade the ranking of your 
 To ensure your tweet ranks high, it's essential to focus on incorporating engaging and relevant content, attaching media where possible, and keeping up-to-date with current events and trends. Avoid tweeting with limited content since they are prone to being deprioritized in the rankings.
 
 ```
- if (scoringData.tweetHasTrendsBoostApplied) {
-      boostDetails.add(Explanation.match(
-          (float) params.tweetHasTrendBoost, "[x] Tweet has trend boost"));
-    }
-
-    if (scoringData.hasMedialUrlBoostApplied) {
-      boostDetails.add(Explanation.match(
-          (float) params.tweetHasMediaUrlBoost, "[x] Media url boost"));
-    }
-
-    if (scoringData.hasNewsUrlBoostApplied) {
-      boostDetails.add(Explanation.match(
-          (float) params.tweetHasNewsUrlBoost, "[x] News url boost"));
-    }
-
-    boostDetails.add(Explanation.match(0.0f, "[FIELDS HIT] " + scoringData.hitFields));
-
-    if (scoringData.hasNoTextHitDemotionApplied) {
-      boostDetails.add(Explanation.match(
-          (float) params.noTextHitDemotion, "[x] No text hit demotion"));
-    }
-
-    if (scoringData.hasUrlOnlyHitDemotionApplied) {
-      boostDetails.add(Explanation.match(
-          (float) params.urlOnlyHitDemotion, "[x] URL only hit demotion"));
-    }
-
-    if (scoringData.hasNameOnlyHitDemotionApplied) {
-      boostDetails.add(Explanation.match(
-          (float) params.nameOnlyHitDemotion, "[x] Name only hit demotion"));
-    }
-
-    if (scoringData.hasSeparateTextAndNameHitDemotionApplied) {
-      boostDetails.add(Explanation.match((float) params.separateTextAndNameHitDemotion,
-          "[x] Separate text/name demotion"));
-    }
+if (scoringData.tweetHasTrendsBoostApplied) {
+ boostDetails.add(Explanation.match(
+     (float) params.tweetHasTrendBoost, "[x] Tweet has trend boost"));
 }
+
+if (scoringData.hasMedialUrlBoostApplied) {
+ boostDetails.add(Explanation.match(
+     (float) params.tweetHasMediaUrlBoost, "[x] Media url boost"));
+}
+
+if (scoringData.hasNewsUrlBoostApplied) {
+ boostDetails.add(Explanation.match(
+     (float) params.tweetHasNewsUrlBoost, "[x] News url boost"));
+}
+
+boostDetails.add(Explanation.match(0.0f, "[FIELDS HIT] " + scoringData.hitFields));
+
+if (scoringData.hasNoTextHitDemotionApplied) {
+ boostDetails.add(Explanation.match(
+     (float) params.noTextHitDemotion, "[x] No text hit demotion"));
+}
+
+if (scoringData.hasUrlOnlyHitDemotionApplied) {
+ boostDetails.add(Explanation.match(
+     (float) params.urlOnlyHitDemotion, "[x] URL only hit demotion"));
+}
+
+if (scoringData.hasNameOnlyHitDemotionApplied) {
+ boostDetails.add(Explanation.match(
+     (float) params.nameOnlyHitDemotion, "[x] Name only hit demotion"));
+}
+
+if (scoringData.hasSeparateTextAndNameHitDemotionApplied) {
+ boostDetails.add(Explanation.match((float) params.separateTextAndNameHitDemotion,
+     "[x] Separate text/name demotion"));
+}
+
 
 ```
 
