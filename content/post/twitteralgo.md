@@ -48,44 +48,57 @@ It should be kept in mind though that offensive of NSFW tweets might not rank we
 
 
 
-```
-//Code found in the twitter open source algorithm
+```scala  
 
-private def getLinearRankingParams: ThriftRankingParams
-ThriftRankingParams(
-"type' = Some (ThriftScoringFunctionType.Linear),
-minScore = -1. 0e100,
-retweetCountParams
-= Some (ThriftLinearfeatureRankingParams (weight = 20.0))
-replyCountParams = Some (ThriftLinearFeatureRankingParams (weight = 1.0)),
-reputationParams = Some (ThriftLinearfeatureRankingParams (weight = 0.2)),
-luceneScoreParams = Some(ThriftLinearFeatureRankingParams (weight = 2.0))
-textScoreParams = Some(ThriftlinearFeatureRankingParams (weight = 0.18)),
-urlParams = Some(ThriftLinearFeatureRankingParams (weight = 2.0)),
-isReplyParams = Some (ThriftLinearFeatureRankingParams (weight = 1.0)),
-favCountParams = Some (ThriftLinearFeatureRankingParams (weight = 30.0)),
-langEnglishUlBoost = 0.5,
-langEnglishTweetBoost = 0.2,
-langDefaultBoost = 0.02,
-unknownLanguageBoost = 0.85,
-offensiveBoost = 0.1,
-inTrustedCircleBoost = 3.0,
-multipleHashtags0rTrendsBoost = 0.6,
-inDirectfollowBoost = 4.0,
-tweetHasTrendBoost = 1.1,
-selfTweetBoost = 2.0,
-tweetHasImageUrlBoost = 2.0,
-tweetHasVideoUrlBoost = 2.0,
-useUserLanguageInfo = true,
-ageDecayParams = Some (ThriftAgeDecayRankingParams (slope = 0.005, base = 1.0))
+  //snippet from the source code
 
+  30: optional double langEnglishUIBoost = 0.3
+  // tweet language is english, UI language is not
+  31: optional double langEnglishTweetBoost = 0.7
+  // user language differs from tweet language, and neither is english
+  32: optional double langDefaultBoost = 0.1
+  // user that produced tweet is marked as spammer by metastore
+  33: optional double spamUserBoost = 1.0
+  // user that produced tweet is marked as nsfw by metastore
+  34: optional double nsfwUserBoost = 1.0
+  // user that produced tweet is marked as bot (self similarity) by metastore
+  35: optional double botUserBoost = 1.0
+
+  // An alternative way of using lucene score in the ranking function.
+  38: optional bool useLuceneScoreAsBoost = 0
+  39: optional double maxLuceneScoreBoost = 1.2
+
+  // Use user's consumed and produced languages for scoring
+  42: optional bool useUserLanguageInfo = 0
+
+  // Boost (demotion) if the tweet language is not one of user's understandable languages,
+  // nor interface language.
+  43: optional double unknownLanguageBoost = 0.01
+
+  // Use topic ids for scoring.
+  // Deprecated in SEARCH-8616.
+  44: optional bool deprecated_useTopicIDsBoost = 0
+  // Parameters for topic id scoring.  See TopicIDsBoostScorer (and its test) for details.
+  46: optional double deprecated_maxTopicIDsBoost = 3.0
+  47: optional double deprecated_topicIDsBoostExponent = 2.0;
+  48: optional double deprecated_topicIDsBoostSlope = 2.0;
+
+  // Hit Attribute Demotion
+  60: optional bool enableHitDemotion = 0
+  61: optional double noTextHitDemotion = 1.0
+  62: optional double urlOnlyHitDemotion = 1.0
+  63: optional double nameOnlyHitDemotion = 1.0
+  64: optional double separateTextAndNameHitDemotion = 1.0
+  65: optional double separateTextAndUrlHitDemotion = 1.0  
 ```
+
+
 
 ## Does Your Follower-Following Ratio Play a Role?
 
 As suggested in the code attatched below, if a user is following way more users than the number of people following them, their tweets may get a nerf in terms of ranking. The quality of users you interact with also plays a role, as interacting with bots, spam accounts or accounts with lower rankings might also get you a demotion. This entire system does play out almost like an ELO ranking system at times!
 
-```
+```scala
  /**
    * reduce pagerank of users with low followers but high followings
    */
@@ -103,7 +116,7 @@ As suggested in the code attatched below, if a user is following way more users 
       mass
     }
   }
-}
+
 
 ```
 
@@ -115,7 +128,7 @@ On the flip side, there are some actions that can downgrade the ranking of your 
 
 To ensure your tweet ranks high, it's essential to focus on incorporating engaging and relevant content, attaching media where possible, and keeping up-to-date with current events and trends. Avoid tweeting with limited content since they are prone to being deprioritized in the rankings.
 
-```
+```scala
 if (scoringData.tweetHasTrendsBoostApplied) {
  boostDetails.add(Explanation.match(
      (float) params.tweetHasTrendBoost, "[x] Tweet has trend boost"));
@@ -160,7 +173,7 @@ if (scoringData.hasSeparateTextAndNameHitDemotionApplied) {
 
 In the initial commit, there was some code which categorised users into Democrats, Republicans, and who is Elon and who is **not Elon**. Elon Musk's name was found in the source code. Although this solely appears to be for data collection purposes, it's still kind of funny seeing Elon's name being individually coded in to collect analytics.
 
-```
+```scala
 
  "author_is_elon",
       candidate =>
