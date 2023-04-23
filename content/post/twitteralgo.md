@@ -42,7 +42,7 @@ For Out-of-Network tweets it's a slightly more complicated problem since finding
 
 ## Multiplier System
 
-There is also a multiplier system where the reachability of tweets is impacted by certain parameters such as likes, replies, etc. Likes have a multiplier boost of 30 times and retweets have a boost of 20 times. An extensive list of these multiplier levels can be found in the code attatched below. This is a great way to get insight into how a tweet can ahieve better reachability and visibility. 
+There is also a multiplier system where the reachability of tweets is impacted by certain parameters such as likes, replies, etc. Likes have a multiplier boost of 30 times and retweets have a boost of 20 times. An extensive list of these multiplier levels can be found in the code attatched below. This is a great way to get insight into how a tweet can achieve better reachability and visibility. 
 
 It should be kept in mind though that offensive of NSFW tweets might not rank well, and even spamming multiple hashtags might get decrease the visibility of a tweet, but trending topics also might get you a small boost at the same time.
 
