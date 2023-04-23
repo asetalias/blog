@@ -10,7 +10,16 @@
       <link>http://asetalias.in/blog/static/images/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 11 Apr 2023 12:23:23 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 09:23:23 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Look Inside the Twitter Recommendation Algorithm</title>
+      <link>http://asetalias.in/blog/post/twitter-algorithm/</link>
+      <pubDate>Wed, 19 Apr 2023 09:23:23 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/post/twitter-algorithm/</guid>
+      <description>How does Twitter decide what kind of tweets do you get to see on your feed?</description>
+    </item>
+    
     <item>
       <title>Framework Laptop: Mainstreaming Right to Repair</title>
       <link>http://asetalias.in/blog/post/framework-laptop-mainstreaming-right-to-repair/</link>

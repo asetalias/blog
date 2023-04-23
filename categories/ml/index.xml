@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Machine Learning on ALiAS Writes</title>
-    <link>http://asetalias.in/blog/tags/machine-learning/</link>
-    <description>Recent content in Machine Learning on ALiAS Writes</description>
+    <title>ML on ALiAS Writes</title>
+    <link>http://asetalias.in/blog/categories/ml/</link>
+    <description>Recent content in ML on ALiAS Writes</description>
     <image>
       <title>ALiAS Writes</title>
       <url>http://asetalias.in/blog/static/images/logo.png</url>
       <link>http://asetalias.in/blog/static/images/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Apr 2023 09:23:23 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 09:23:23 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/categories/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Look Inside the Twitter Recommendation Algorithm</title>
       <link>http://asetalias.in/blog/post/twitter-algorithm/</link>
@@ -18,15 +18,6 @@
       
       <guid>http://asetalias.in/blog/post/twitter-algorithm/</guid>
       <description>How does Twitter decide what kind of tweets do you get to see on your feed?</description>
-    </item>
-    
-    <item>
-      <title>Data Science: A Beginner&#39;s Roadmap</title>
-      <link>http://asetalias.in/blog/post/datascience/</link>
-      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://asetalias.in/blog/post/datascience/</guid>
-      <description>A step by step guide for beginners to understand and learn data science.</description>
     </item>
     
   </channel>

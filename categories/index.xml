@@ -10,22 +10,31 @@
       <link>http://asetalias.in/blog/static/images/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 11 Apr 2023 12:23:23 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 09:23:23 +0000</lastBuildDate><atom:link href="http://asetalias.in/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hardware</title>
-      <link>http://asetalias.in/blog/categories/hardware/</link>
-      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      <title>ML</title>
+      <link>http://asetalias.in/blog/categories/ml/</link>
+      <pubDate>Wed, 19 Apr 2023 09:23:23 +0000</pubDate>
       
-      <guid>http://asetalias.in/blog/categories/hardware/</guid>
+      <guid>http://asetalias.in/blog/categories/ml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
       <link>http://asetalias.in/blog/categories/open-source/</link>
-      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      <pubDate>Wed, 19 Apr 2023 09:23:23 +0000</pubDate>
       
       <guid>http://asetalias.in/blog/categories/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>http://asetalias.in/blog/categories/hardware/</link>
+      <pubDate>Tue, 11 Apr 2023 12:23:23 +0000</pubDate>
+      
+      <guid>http://asetalias.in/blog/categories/hardware/</guid>
       <description></description>
     </item>
     

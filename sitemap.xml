@@ -2,14 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://asetalias.in/blog/post/twitter-algorithm/</loc>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
+  </url><url>
     <loc>http://asetalias.in/blog/</loc>
-    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/categories/</loc>
-    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/tags/devops/</loc>
-    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/machine-learning/</loc>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/categories/ml/</loc>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/categories/open-source/</loc>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/open-source/</loc>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/post/</loc>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
+  </url><url>
+    <loc>http://asetalias.in/blog/tags/</loc>
+    <lastmod>2023-04-19T09:23:23+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/post/framework-laptop-mainstreaming-right-to-repair/</loc>
     <lastmod>2023-04-11T12:23:23+00:00</lastmod>
@@ -23,19 +44,7 @@
     <loc>http://asetalias.in/blog/tags/laptops/</loc>
     <lastmod>2023-04-11T12:23:23+00:00</lastmod>
   </url><url>
-    <loc>http://asetalias.in/blog/categories/open-source/</loc>
-    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
-  </url><url>
-    <loc>http://asetalias.in/blog/tags/open-source/</loc>
-    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
-  </url><url>
-    <loc>http://asetalias.in/blog/post/</loc>
-    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
-  </url><url>
     <loc>http://asetalias.in/blog/tags/right-to-repair/</loc>
-    <lastmod>2023-04-11T12:23:23+00:00</lastmod>
-  </url><url>
-    <loc>http://asetalias.in/blog/tags/</loc>
     <lastmod>2023-04-11T12:23:23+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/tags/google-projects/</loc>
@@ -285,9 +294,6 @@
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/tags/introduction/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://asetalias.in/blog/tags/machine-learning/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://asetalias.in/blog/categories/technology/</loc>
